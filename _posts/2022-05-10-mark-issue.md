@@ -34,3 +34,9 @@ vs code에서 주피터 노트북으로 파이썬을 주로 사용하는데, pan
 
 # 4. 정리
 !와 %의 정확한 차이점은 모르겠다.. matplot을 사용할 때, %를 붙이고 쓰는걸 봤을때 바로 가기 정의와 관련이 있을꺼 같긴한데 일단 근본 문제였던 판다스가 설치되지 않는 문제를 해결하긴했으니..
+
+#### 추가
+!와 % 모두 매직 커맨드라고하며 쉘에서 쓸 수 있는 명령어들을 주피터노트북에서 사용할 수 있게해준다. 기본적으로 비슷하게 동작하나 명령어에 따라 사용하는 기호가 다르다고한다.  
+
+[참고 서적: 파이썬 데이터사이언스 핸드북](https://jakevdp.github.io/PythonDataScienceHandbook/)  
+[참고 페이지: 매직 커맨드](https://jakevdp.github.io/PythonDataScienceHandbook/01.03-magic-commands.html)
