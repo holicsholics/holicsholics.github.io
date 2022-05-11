@@ -1,7 +1,7 @@
 ---
-title: "How to sovle ISSUE"
+title: "How to sovle Issue"
 permalink: /categories/TIL/Issue/
 layout: category
 author_profile: true
-taxonomy: issue
+taxonomy: Issue
 ---
