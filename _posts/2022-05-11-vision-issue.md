@@ -5,11 +5,12 @@ title: "ImportError: cannot import name 'ABCIndexClass' from
 date: 2022-05-11T01:30:45.963Z
 
 categories:
-  - issue
+  - Issue
 tags:
   - pandas
   - ABCIndexClass
   - vs code
+  - issue
 
 toc: true
 toc_sticky: true

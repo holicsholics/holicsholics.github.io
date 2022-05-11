@@ -4,7 +4,7 @@ title: "!와 % 명령어 차이"
 date: 2022-05-10T03:58:31.033Z
 
 categories:
-  - issue
+  - Issue
 tags:
   - issue
   - pandas
