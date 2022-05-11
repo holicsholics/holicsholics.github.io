@@ -1,6 +1,6 @@
 ---
 layout: single
-tilte: 멋쟁이 사자처럼 AI school 6기
+tilte: 멋쟁이 사자처럼 AI school 6기 로그
 permalink: /likelion/
 ---
 
@@ -29,3 +29,8 @@ permalink: /likelion/
 - 딕셔너리를 많이 안써봐서, 응용되는 예제는 못풀정도는 아니었나 조금 어려웠음
 - pandas 소개 및 실습
 - 시각화(seaborn - 앤스컴 콰르텟 데이터셋) 소개 및 실습
+3. 5월 11일
+- pandas 복습
+- seaborn을 이용한 자동차 연비 데이터셋(mpg) 시각화 실습
+- 기술 통계 시각화 실습(pandas-profililng, sweetviz, autoviz) -> 통계 지식이 거의 없다보니 너무 어려웠음
+- Git, GitHub 소개 및 실습
