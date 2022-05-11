@@ -1,7 +1,7 @@
 ---
-title: "vs code"
+title: "archive"
 laygout: tags
-permalink: /tags/vs code/
+permalink: /tags/archive/
 author_profile: true
 taxonomy: vs code
 ---
