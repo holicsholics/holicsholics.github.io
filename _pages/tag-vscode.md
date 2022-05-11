@@ -1,7 +1,6 @@
 ---
 title: "archive"
-laygout: tags
+laygout: tag_archives
 permalink: /tags/archive/
 author_profile: true
-taxonomy: vs code
 ---
