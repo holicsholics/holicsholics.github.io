@@ -1,10 +1,13 @@
 ---
 layout: single
-title: "Git and GitHub"
-date: 
+title: Git and GitHub
+date: 2022-05-12T13:54:37.595Z
 
-categories: [TIL]
-tags: [Git, GitHub]
+categories:
+  - TIL
+tags:
+  - Git
+  - GitHub
 
 toc: true
 toc_sticky: true
