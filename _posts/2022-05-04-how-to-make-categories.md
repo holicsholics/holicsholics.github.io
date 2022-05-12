@@ -120,3 +120,19 @@ categories:
 ~~내가 원했던건 상단 Category 메뉴를 클릭하면 이동되는 방식인데 이 부분은 아직 어떻게하는건지 잘모르겠다.~~
 
 철자를 잘못 입력한게 있어서 고생을했다.. 의도한 그대로 반영된듯
+
+## 4. 추가
+```yml
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+```
+위와 같이 코드를 수정하면 따로 페이지를 만들지 않아도 자동으로 카테고리와 테그가 추가되는거 같다.  
+근데 카테고리는 따로 페이지가 있는게 설명하기도 편한거 같아서 계속해서 페이지를 만드는 방식을 사용할꺼 같다.
