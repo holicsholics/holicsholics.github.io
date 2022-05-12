@@ -84,7 +84,11 @@ vs code에서도 미리보기로 확인할 수 있지만 [online markdown](https
 ## 6. 백준 티어
 사실 이것때문에 꾸미는 이유가 큰거 같다. 아직 0렙이긴한데.. 동기부여 느낌으로..  
 [mazzassumnida 프로젝트](https://github.com/mazassumnida/mazassumnida)에 적용법이 잘 나와있다.  
-일단은 보류하도록하자
+
+```
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj={handle})](https://solved.ac/{handle})
+```
+에서 {handle} 부분에 본인 백준 아이디를 기입하면 됨
 
 ## 7. 기타 위젯
 다양한 위젯들이 있는데 괜찮아 보이는게 있을때마다 추가해볼 생각이다.
