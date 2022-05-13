@@ -2,6 +2,9 @@
 layout: single
 tilte: 멋쟁이 사자처럼 AI school 6기 로그
 permalink: /likelion/
+
+toc: true
+toc_sticky: true
 ---
 
 # 멋쟁이 사자처럼 AI school
@@ -41,3 +44,8 @@ permalink: /likelion/
 - 음식 추천하기
   - 기간 전체 동안 같은 프로젝트를 계속할 예정
   - 프로그램이 썪는다?를 체험할 예정
+5. 5월 13일
+- SQL 소개 및 실습 -> MYSQL
+- 인프런 강의
+- Hackerrank 문제 풀이 -> 영어라서 문제를 헛갈린게 좀 있었음
+- SQL 연습문제 숙제
