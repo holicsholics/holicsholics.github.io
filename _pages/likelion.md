@@ -48,4 +48,4 @@ toc_sticky: true
 - SQL 소개 및 실습 -> MYSQL
 - 인프런 강의
 - Hackerrank 문제 풀이 -> 영어라서 문제를 헛갈린게 좀 있었음
-- SQL 연습문제 숙제
+- SQL 연습문제 숙제 -> 다음 시간에 발표 시킨다고 함
