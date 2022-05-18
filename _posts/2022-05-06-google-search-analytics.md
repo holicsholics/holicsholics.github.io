@@ -15,7 +15,7 @@ toc_sticky: true
 
 # 1. Google Search Console과 Analytics
 - Search Console과 Analytics는 비슷하지만 다른 서비스
-
+ 
 ## Google Search Console
 - 구글 검색 엔진에 웹사이트가 검색되도록 등록
 - 모니터링 결과 제공

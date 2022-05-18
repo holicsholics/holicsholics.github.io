@@ -9,6 +9,8 @@ tags:
   - Project
   - pandas
   - DataScience
+  - requests
+  - beautifulsoup
 
 toc: true
 toc_sticky: true

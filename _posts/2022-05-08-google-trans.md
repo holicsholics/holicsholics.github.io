@@ -22,7 +22,7 @@ toc_sticky: true
 - 구글에서 제공하는 언어 감지/번역 모듈
 - 일일 사용량이 정해져있다고 함
 - 모듈을 큰 기능 단위로묶어둔것 -> Library
-
+ 
 
 ```python
 from googletrans import Translator
