@@ -7,6 +7,7 @@ categories:
 tags:
   - Openweather
   - API
+  - Project
 
 toc: true
 toc_sticky: true

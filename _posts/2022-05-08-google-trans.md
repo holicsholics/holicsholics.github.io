@@ -7,6 +7,7 @@ categories:
     - Project
 tags:
     - Google Trans
+    - Project
 
 toc: true
 toc_sticky: true
