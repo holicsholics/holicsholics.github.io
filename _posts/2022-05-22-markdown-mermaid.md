@@ -47,18 +47,18 @@ mermaid는 markdown으로 UML을 그릴 수 있게한 언어인데, 기존에 �
 
 ### 노드
 ```md
-<div clasas="mermaid">
+<div class="mermaid">
 graph BT;
 id[사각형] --> A[(DB)];
 A --> B{조건};
 </div>
 ```
 
-graph LR;
-  A[내용] --> B;
-  B --> C[(DB)];
-  C --> D{조건};
-  D --> A
+<div class="mermaid">
+graph BT;
+  id[사각형] --> A[(DB)];
+  A --> B{조건};
+</div>
 
 ### 엣지
 화살표를 입력하는 형식에 따라 형식이 달라짐
@@ -74,13 +74,16 @@ E --> D;
 </div>
 ```
 
+<div class="mermaid">
 flowchart LR;
-  A --> B;
-  B -.-> C;
-  C --- D;
-  D -->|옵션도 가능|A;
-  E --> A;
-  E --> D;
+A --> B;
+B -.-> C;
+C --- D;
+D -->|옵션도 가능|A;
+E --> A;
+E --> D;
+</div>
 
 
-기본적인 문법만 알면, 프리뷰를 보면서 그리면 쉽게 그릴수 있을꺼 같다.
+기본적인 문법만 알면, 프리뷰를 보면서 그리면 쉽게 그릴수 있을꺼 같다.  
+에디터에서는 형식이 출력되지만, 깃 블로그에서는 지원을하지 않는거 같다..
