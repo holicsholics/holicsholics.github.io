@@ -5,7 +5,7 @@ date: 2022-05-22T06:24:34.659Z
 
 categories:
   - Project
-tage:
+tags:
   - Project
   - pandas
 
