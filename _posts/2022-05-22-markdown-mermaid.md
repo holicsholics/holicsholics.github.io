@@ -87,3 +87,16 @@ E --> D;
 
 기본적인 문법만 알면, 프리뷰를 보면서 그리면 쉽게 그릴수 있을꺼 같다.  
 에디터에서는 형식이 출력되지만, 깃 블로그에서는 지원을하지 않는거 같다..
+
+## 깃허브 페이지에서 mermaid 표시하기
+어제 포스팅하고 html형식으로 감싸거나 일반적인 방식으로 사용해도 표시가되지 않아 사용이 안되는지 알았다..  
+오늘 좀 찾아보니 html 형식을 jekyll에 추가해주면 사용 가능한거 같아 사용해보니 가능했다.  
+```html
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">
+
+</script>
+<script>mermaid.initialize({startOnLoad:true});
+    
+</script>
+```
+`custom` 파일에 등록해서 사용했다.
