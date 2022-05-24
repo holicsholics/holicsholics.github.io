@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "nuyhc"
   avatar           : "assets/images/tree_prism.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "꾸준히 성장하고 싶은 개발자"
+  bio              : "Programming Cheat Sheet for ME"
   location         : "Republic of Korea"
   email            : "spec327@naver.com"
   links:
