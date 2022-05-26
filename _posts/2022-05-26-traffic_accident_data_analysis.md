@@ -307,7 +307,7 @@ cs.tools.get_embed(cs.plotly.plot(fig, filename="사고 유형별 부상자 수"
 
 
 
-    '<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/26.embed" height="525" width="100%"></iframe>'
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/26.embed" height="525" width="100%"></iframe>
 
 
 
@@ -424,7 +424,7 @@ cs.tools.get_embed(cs.plotly.plot(fig, filename="가해자 연령별 사고 건�
 
 
 
-    '<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/28.embed" height="525" width="100%"></iframe>'
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/28.embed" height="525" width="100%"></iframe>
 
 
 
@@ -442,7 +442,7 @@ cs.tools.get_embed(cs.plotly.plot(fig, filename="월별 사고 건수", auto_ope
 
 
 
-    '<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/30.embed" height="525" width="100%"></iframe>'
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/30.embed" height="525" width="100%"></iframe>
 
 
 
@@ -460,7 +460,7 @@ cs.tools.get_embed(cs.plotly.plot(fig, filename="월별 사고건수", auto_open
 
 
 
-    '<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/32.embed" height="525" width="100%"></iframe>'
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/32.embed" height="525" width="100%"></iframe>
 
 
 
@@ -634,7 +634,7 @@ cs.tools.get_embed(cs.plotly.plot(fig, filename="월별 사고 건수", auto_ope
 
 
 
-    '<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/30.embed" height="525" width="100%"></iframe>'
+ <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/30.embed" height="525" width="100%"></iframe>
 
 
 
@@ -880,7 +880,7 @@ cs.tools.get_embed(cs.plotly.plot(fig, filename="사상자 연령층", auto_open
 
 
 
-    '<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/35.embed" height="525" width="100%"></iframe>'
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/35.embed" height="525" width="100%"></iframe>
 
 
 
@@ -1080,6 +1080,6 @@ cs.tools.get_embed(cs.plotly.plot(fig, filename="월별 사고 건수", auto_ope
 
 
 
-    '<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/30.embed" height="525" width="100%"></iframe>'
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~nuyhc/30.embed" height="525" width="100%"></iframe>
 
 
