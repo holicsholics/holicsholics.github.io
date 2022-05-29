@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[프로젝트] 교통사고 데이터 시각화"
+title: "[프로젝트] 교통사고 데이터 시각화 개선 및 추가"
 date: 2022-05-29T13:24:34.065Z
 
 categories:
@@ -12,7 +12,10 @@ tags:
   - seaborn
   - matplot
 ---
-# 미니 프로젝트 7팀
+# Traffic Accident Data Analysis
+[지난번 연관 프로젝트](https://nuyhc.github.io/project/traffic_accident_data_analysis/)를 개선한 프로젝트, 내용은 거의 비슷하나  
+같은 팀원들의 분석과 시각화를 추가하고, 팀원들의 동의를 얻고 게시함
+
 ## 교통사고 데이터 분석 및 시각화
 
 ## 1. 소개
