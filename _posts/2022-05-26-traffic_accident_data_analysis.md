@@ -9,6 +9,9 @@ tags:
   - plotly
   - pandas
   - DataScience
+
+toc: true
+toc_sticky: true
 ---
 
 # Traffic Accident Data Analysis

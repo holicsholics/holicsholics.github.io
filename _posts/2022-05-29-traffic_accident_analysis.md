@@ -11,6 +11,9 @@ tags:
   - DataScience
   - seaborn
   - matplot
+
+toc: true
+toc_sticky: true
 ---
 # Traffic Accident Data Analysis
 [지난번 연관 프로젝트](https://nuyhc.github.io/project/traffic_accident_data_analysis/)를 개선한 프로젝트, 내용은 거의 비슷하나  
