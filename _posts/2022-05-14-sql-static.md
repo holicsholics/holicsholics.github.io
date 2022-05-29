@@ -7,7 +7,7 @@ categories:
   - TIL
 tags:
   - SQL
-  - MYSQL
+  - MySQL
 
 toc: true
 toc_sticky: true
