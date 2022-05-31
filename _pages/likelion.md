@@ -154,6 +154,7 @@ toc_sticky: true
 <img src="https://cdn.discordapp.com/attachments/965823350238748693/980626193739030568/unknown.png" withd=300 height=300>
 2. 5월 31일
 - kosis 암 데이터셋 EDA
+- [국민건강보험공단_의약품처방정보](https://www.data.go.kr/data/15007117/fileData.do) 대용량 데이터를 이용하는 방법
 3. 6월 1일
 - 지방 선거로 인한 휴강
 4. 6월 2일
