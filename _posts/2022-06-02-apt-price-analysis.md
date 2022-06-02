@@ -6,7 +6,6 @@ date: 2022-06-02T14:26:23.147Z
 categories:
   - Project
 tags:
-  - plotly
   - pandas
   - DataScience
   - seaborn
