@@ -13,7 +13,7 @@ tags:
 toc: true
 toc_sticky: true
 ---
-
+ 
 # 데이터 분석을 위한 통계 기초
 
 ### 통계학을 배우는 이유
