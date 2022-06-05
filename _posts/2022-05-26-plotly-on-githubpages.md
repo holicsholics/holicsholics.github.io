@@ -32,7 +32,7 @@ plotly에서 제공하는 iframe url을 이용해 마크다운 파일에 적용�
 
 plotly 홈페이지에서 무료로 가입을하고 api키를 발급 받으면 사용할 준비는 끝난다.
 
-## import
+## import 
 ```python
 import plotly.express as px
 import chart_studio
