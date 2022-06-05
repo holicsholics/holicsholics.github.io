@@ -158,7 +158,7 @@ df.head()
 #### 중심 경향치
 ##### 평균 (mean)
 - 평균은 극단값의 영향을 크게 받음  
-$$ \bar X =  \frac{1}{N}\sum_{i=1}^{N}X_i $$
+$\bar X =  \frac{1}{N} \sum_{i=1}^{N}X_i$
 
 
 ```python
