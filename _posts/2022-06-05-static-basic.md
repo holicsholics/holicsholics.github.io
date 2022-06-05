@@ -306,7 +306,7 @@ $Var(X) = \frac{1}{N}\sum_{i=1}^{N}(X_i -\bar X)^2$
 - 직관적이지는 않지만 수학적으로 중요한 성질이 있음
 - 표준편차(standard deviation), $SD(X) = \sqrt{Var(X)}$를 많이 사용
 - 평균 절대 편자(MAD, Mead Abs Divation),  
-  - $MAD = \frac{1}{N}\sum |X_i-\bar X|$
+  - $MAD = \frac{1}{N}\sum abs(X_i-\bar X)$
 
 
 ```python
