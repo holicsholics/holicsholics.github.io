@@ -18,6 +18,9 @@ toc_sticky: true
 다국어 지원 문제들도 있긴했지만, 한글로 나온 문제들만 풀었다.  
 단순 구현과 출력 문제들이 많아 일부만 모아서 올린다.
 
+업데이트 된 문제들의 풀이는 해당 레포지토리에서 확인 가능  
+> [Baekjoon Bronze 5 repo.](https://github.com/nuyhc/Algorithm_Practice)
+
 ## 백준 2845 파티가 끝나고 난 뒤
 
 
