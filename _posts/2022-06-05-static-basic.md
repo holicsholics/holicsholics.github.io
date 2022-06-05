@@ -158,9 +158,7 @@ df.head()
 #### 중심 경향치
 ##### 평균 (mean)
 - 평균은 극단값의 영향을 크게 받음  
-$$
-\bar X =  \frac{1}{N} \sum_{i=1}^{N}X_i
-$$
+$\bar X =  \frac{1}{N} \sum_{i=1}^{N}X_i$
 
 
 ```python
@@ -299,15 +297,11 @@ _ = sns.boxplot(data=df, x="model", y="price")
 
 
 ##### 편차 (deviation)
-- 값 = 평균
-$$
-X_i - \bar X
-$$
+- 값 - 평균  
+$X_i - \bar X$
 
-##### 분산 (variance)
-$$
-Var(X) = \frac{1}{N}\sum_{i=1}^{N}(X_i -\bar X)^2
-$$
+##### 분산 (variance)  
+$Var(X) = \frac{1}{N}\sum_{i=1}^{N}(X_i -\bar X)^2$
 - 편차 제곱의 평균
 - 직관적이지는 않지만 수학적으로 중요한 성질이 있음
 - 표준편차(standard deviation), $SD(X) = \sqrt{Var(X)}$를 많이 사용
@@ -639,10 +633,8 @@ p값 < 유의수준: 귀무가설을 기각 -> 통계적으로 유의하다
 
 엄밀한 근거에 바탕을 둔 것은 아니며, 실제 의사결저에서는 상대적으로 비교하는 것이 바람직
 
-##### 피어슨 적률 상관계수
-$$
-p(X,Y) = {cov(X,Y) \over \sigma X \sigma Y}
-$$
+##### 피어슨 적률 상관계수  
+$p(X,Y) = {cov(X,Y) \over \sigma X \sigma Y}$
 - 가장 대표적인 상관계수
 - 선형적인 상관계수를 측정
 - 공분산을 두 변수의 표준편차로 나눔
@@ -880,25 +872,19 @@ _ = sns.scatterplot(data=sp, x="SPX", y="GLD")
 - 회귀분석(regression): 종속변수가 **연속** (예측-실제가 작은것이 중요)
 - 분류분석(classification): 종속변수가 **범주형** (예측과 실제가 맞는것이 중요)
 
-#### 선형 모델 (linear model)
-$$
-\hat{y} = wx + b
-$$
+#### 선형 모델 (linear model)  
+$\hat{y} = wx + b$
 - $\hat{y}$: y의 예측치
 - x: 독립변수
 - w: 가중치 또는 기울기
 - b: 절변 (x=0일때, y의 예측치)
 
-#### 잔차 (residual)  
-$$
-r = y-\hat{y}
-$$
+#### 잔차 (residual)    
+$r = y-\hat{y}$
 - 실제값 y과 예측값 $\hat{y}$의 차이
 
-##### 잔차분산
-$$
-\frac{1}{N}\sum{(y-\hat{y})^2}
-$$
+##### 잔차분산  
+$\frac{1}{N}\sum{(y-\hat{y})^2}$
 - 잔차를 제곱하여 평균낸 것
 - 잔차분산이 크다 -> 예측이 잘 맞지 않음
 - 잔차분산이 작다 -> 예측이 잘 맞음
@@ -1640,10 +1626,8 @@ p<0.05 -> 기울기가 0이 아니다 -> 기울기가 있다 or 유의미하다
 - 실험적 통제: 데이터에서 z를 일정하게 유지하여 z의 영향을 제거
 - 통계적 통제: z를 모형에 독립변수로 함께 포함하여 x의 기울기에 z의 영향이 간접 반영되지 않도록 함
 
-#### 표준화 (standardization)
-$$
-{X - \mu} \over \sigma
-$$
+#### 표준화 (standardization)  
+${X - \mu} \over \sigma$
 - 변수별로 퍼진 정도(분산)을 비슷하게 맞춰주는 절차
   - 표준화를 진행하면, 평균=0, 표준편차=1이 됨
   - 단위가 다른 변수의 기울기를 비교할 때 사용 -> 단위를 없애는 효과
@@ -1662,10 +1646,8 @@ $$
   - 수정 R제곱(Adjusted R-Squared): R제곱을 보정 -> 클 수록 좋음
   - AIC와 BIC: 잔차분산을 보정 -> 작을 수록 좋음
 
-##### 수정 R제곱 (Adjusted R-Squared)
-$$
-Adjusted \space R^2 = 1 - {RSS/(n-k-1)  \over TSS/(n-1)}
-$$
+##### 수정 R제곱 (Adjusted R-Squared)  
+$Adjusted \space R^2 = 1 - {RSS/(n-k-1)  \over TSS/(n-1)}$  
 n: 표본의 크기, k: 독립변수의 개수  
 
 - 독립 변수를 추가하면 $R^2$이 작아지도록 보정
@@ -1673,16 +1655,12 @@ n: 표본의 크기, k: 독립변수의 개수
 - 모형 간 비교의 용도
   - 한 모형이 종속변수의 분산을 설명하는 비율을 볼 때는 R제곱을 봐야함
 
-##### AIC (Akaike Information Criterion)
-$$
-AIC = n \log ({RSS \over n}) + 2k
-$$
+##### AIC (Akaike Information Criterion)  
+$AIC = n \log ({RSS \over n}) + 2k$  
 - 작을수록 좋은 모형
 
-##### BIC (Bayesian Information Criterion)
-$$
-BIC = n \log ({RSS \over n}) + k\log{n}
-$$
+##### BIC (Bayesian Information Criterion)  
+$BIC = n \log ({RSS \over n}) + k\log{n}$  
 - 작을수록 좋은 모형
 
 #### 교차 검증
