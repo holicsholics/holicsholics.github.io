@@ -1630,7 +1630,7 @@ $$ {X - \mu} \over \sigma $$
 - 변수별로 퍼진 정도(분산)을 비슷하게 맞춰주는 절차
   - 표준화를 진행하면, 평균=0, 표준편차=1이 됨
   - 단위가 다른 변수의 기울기를 비교할 때 사용 -> 단위를 없애는 효과
-- 관계식에서는 y ~ scale(x1) + scale(x2) 형식으로 사용
+- 관계식에서는 `y ~ scale(x1) + scale(x2)` 형식으로 사용
   - 범주형 변수는 표준화하지 않음
 
 #### 과대적합 (overfitting)
@@ -1646,7 +1646,7 @@ $$ {X - \mu} \over \sigma $$
   - AIC와 BIC: 잔차분산을 보정 -> 작을 수록 좋음
 
 ##### 수정 R제곱 (Adjusted R-Squared)
-$$ Adjusted \space R^2 = 1 - {{RSS/(n-k-1)} \over {TSS/(n-1)}} $$
+$$ Adjusted \space R^2 = {% raw %}{1 - {RSS/(n-k-1) \over {TSS/(n-1)}}}{% endraw %} $$
 n: 표본의 크기, k: 독립변수의 개수  
 
 - 독립 변수를 추가하면 $R^2$이 작아지도록 보정
