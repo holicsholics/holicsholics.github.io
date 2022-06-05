@@ -158,7 +158,9 @@ df.head()
 #### 중심 경향치
 ##### 평균 (mean)
 - 평균은 극단값의 영향을 크게 받음  
-$\bar X =  \frac{1}{N} \sum_{i=1}^{N}X_i$
+$$
+\bar X =  \frac{1}{N} \sum_{i=1}^{N}X_i
+$$
 
 
 ```python
@@ -253,10 +255,10 @@ df["price"].quantile(.25)
 
 ##### 사분위수 (quartile)
 - 데이터를 4등분하는 위치
-  - 제 1사분위수 = $ \frac{1}{4} $ 지점 = 25%
-  - 제 2사분위수 = $ \frac{2}{4} $ 지점 = 50% = 중간값
-  - 제 3사분위수 = $ \frac{3}{4} $ 지점 = 75%
-  - 제 4사분위수 = $ \frac{4}{4} $ 지점 = 100%
+  - 제 1사분위수 = $\frac{1}{4}$ 지점 = 25%
+  - 제 2사분위수 = $\frac{2}{4}$ 지점 = 50% = 중간값
+  - 제 3사분위수 = $\frac{3}{4}$ 지점 = 75%
+  - 제 4사분위수 = $\frac{4}{4}$ 지점 = 100%
   - ...
 
 #### 변산성 변수
@@ -298,14 +300,18 @@ _ = sns.boxplot(data=df, x="model", y="price")
 
 ##### 편차 (deviation)
 - 값 = 평균
-$$ X_i - \bar X $$
+$$
+X_i - \bar X
+$$
 
 ##### 분산 (variance)
-$$ Var(X) = \frac{1}{N}\sum_{i=1}^{N}(X_i -\bar X)^2 $$
+$$
+Var(X) = \frac{1}{N}\sum_{i=1}^{N}(X_i -\bar X)^2
+$$
 - 편차 제곱의 평균
 - 직관적이지는 않지만 수학적으로 중요한 성질이 있음
-- 표준편차(standard deviation), $ SD(X) = \sqrt{Var(X)} $를 많이 사용
-- 평균 절대 편자(MAD, Mead Abs Divation), $ MAD = \frac{1}{N}\sum |X_i-\bar X| $
+- 표준편차(standard deviation), $SD(X) = \sqrt{Var(X)}$를 많이 사용
+- 평균 절대 편자(MAD, Mead Abs Divation), $MAD = \frac{1}{N}\sum |X_i-\bar X|$
 
 
 ```python
@@ -634,7 +640,9 @@ p값 < 유의수준: 귀무가설을 기각 -> 통계적으로 유의하다
 엄밀한 근거에 바탕을 둔 것은 아니며, 실제 의사결저에서는 상대적으로 비교하는 것이 바람직
 
 ##### 피어슨 적률 상관계수
-$$ p(X,Y) = {cov(X,Y) \over \sigma X \sigma Y} $$
+$$
+p(X,Y) = {cov(X,Y) \over \sigma X \sigma Y}
+$$
 - 가장 대표적인 상관계수
 - 선형적인 상관계수를 측정
 - 공분산을 두 변수의 표준편차로 나눔
@@ -873,18 +881,24 @@ _ = sns.scatterplot(data=sp, x="SPX", y="GLD")
 - 분류분석(classification): 종속변수가 **범주형** (예측과 실제가 맞는것이 중요)
 
 #### 선형 모델 (linear model)
-$$ \hat{y} = wx + b $$
+$$
+\hat{y} = wx + b
+$$
 - $\hat{y}$: y의 예측치
 - x: 독립변수
 - w: 가중치 또는 기울기
 - b: 절변 (x=0일때, y의 예측치)
 
 #### 잔차 (residual)  
-$$ r = y-\hat{y} $$
+$$
+r = y-\hat{y}
+$$
 - 실제값 y과 예측값 $\hat{y}$의 차이
 
 ##### 잔차분산
-$$ \frac{1}{N}\sum{(y-\hat{y})^2} $$
+$$
+\frac{1}{N}\sum{(y-\hat{y})^2}
+$$
 - 잔차를 제곱하여 평균낸 것
 - 잔차분산이 크다 -> 예측이 잘 맞지 않음
 - 잔차분산이 작다 -> 예측이 잘 맞음
@@ -893,7 +907,7 @@ $$ \frac{1}{N}\sum{(y-\hat{y})^2} $$
 - 잔차분산이 최소가 되게하는 w, b등 계수를 추정
 - 가장 널리사용되는 추정방법
 
-`price ~ mileage` = $ price = w \times mileage + b $
+`price ~ mileage` = $price = w \times mileage + b$
 
 
 ```python
@@ -1627,7 +1641,9 @@ p<0.05 -> 기울기가 0이 아니다 -> 기울기가 있다 or 유의미하다
 - 통계적 통제: z를 모형에 독립변수로 함께 포함하여 x의 기울기에 z의 영향이 간접 반영되지 않도록 함
 
 #### 표준화 (standardization)
-$$ {X - \mu} \over \sigma $$
+$$
+{X - \mu} \over \sigma
+$$
 - 변수별로 퍼진 정도(분산)을 비슷하게 맞춰주는 절차
   - 표준화를 진행하면, 평균=0, 표준편차=1이 됨
   - 단위가 다른 변수의 기울기를 비교할 때 사용 -> 단위를 없애는 효과
@@ -1647,7 +1663,9 @@ $$ {X - \mu} \over \sigma $$
   - AIC와 BIC: 잔차분산을 보정 -> 작을 수록 좋음
 
 ##### 수정 R제곱 (Adjusted R-Squared)
-$$ Adjusted \space R^2 = {% raw %}{1 - {RSS/(n-k-1) \over {TSS/(n-1)}}}{% endraw %} $$
+$$
+Adjusted \space R^2 = 1 - {RSS/(n-k-1)  \over TSS/(n-1)}
+$$
 n: 표본의 크기, k: 독립변수의 개수  
 
 - 독립 변수를 추가하면 $R^2$이 작아지도록 보정
@@ -1656,11 +1674,15 @@ n: 표본의 크기, k: 독립변수의 개수
   - 한 모형이 종속변수의 분산을 설명하는 비율을 볼 때는 R제곱을 봐야함
 
 ##### AIC (Akaike Information Criterion)
-$$ AIC = n \log ({RSS \over n}) + 2k $$
+$$
+AIC = n \log ({RSS \over n}) + 2k
+$$
 - 작을수록 좋은 모형
 
 ##### BIC (Bayesian Information Criterion)
-$$ BIC = n \log ({RSS \over n}) + k\log{n} $$
+$$
+BIC = n \log ({RSS \over n}) + k\log{n}
+$$
 - 작을수록 좋은 모형
 
 #### 교차 검증
@@ -1724,10 +1746,10 @@ ols("price ~ np.log(mileage)", df).fit()
   - `y ~ I(x+z)`
 
 
-$ y = ax^2+bx+c $ 같은 모형을 관계식으로 만들 경우 -> `y ~ I(x**2)+x`
+$y = ax^2+bx+c$ 같은 모형을 관계식으로 만들 경우 -> `y ~ I(x**2)+x`
 
 #### 절편이 없는 모형
-$ y = wx + 0 $을 표시하기 위해, 관계식에 `0+`를 추가  
+$y = wx + 0$을 표시하기 위해, 관계식에 `0+`를 추가  
 `y ~ 0 + x`
 
 #### 절편의 이동
@@ -1738,7 +1760,7 @@ $ y = wx + 0 $을 표시하기 위해, 관계식에 `0+`를 추가
 `y ~ I(x - 100)`
 
 #### 상호작용 (interaction)
-- 상호작용 항: 두 독립변수의 곱으로 이뤄진 항 -> $ y = x + m + xm $
+- 상호작용 항: 두 독립변수의 곱으로 이뤄진 항 -> $y = x + m + xm$
 - 관계식으로 쓸 때는 `:`을 사용 -> `y ~ x + m + x:m` -> `y ~ x*m` 같이 축약할 수 있음 (*의 일반적인 의미와 용법이 다름)
 
 ##### 상호작용의 해석
@@ -1781,7 +1803,7 @@ $ y = wx + 0 $을 표시하기 위해, 관계식에 `0+`를 추가
 - 실험이 불가능한 상황에서 사용하는 준실험적 방법
 - 실험군 B에 어떤 처치를 했으나 대조군이 없을 때
 - 실험군과 비슷한 집단 A를 이용해 비교
-- $ d = (B_2 - B_1) - (A_2 - A_1) $
+- $d = (B_2 - B_1) - (A_2 - A_1)$
 
 ##### 결과 해석
 - d=0: 실험군 B에서 변화는 대조군 A에서 변화와 비슷 (처치 효과 없음)
@@ -1794,7 +1816,7 @@ $ y = wx + 0 $을 표시하기 위해, 관계식에 `0+`를 추가
 
 #### 회귀분석을 통한 이중차분법
 - 상호작용을 이용
-- $ y = a \cdot GROUP + b \cdot POINT + d \cdot (GROUP \times POINT) + e $
+- $y = a \cdot GROUP + b \cdot POINT + d \cdot (GROUP \times POINT) + e$
 
 
 ```python
