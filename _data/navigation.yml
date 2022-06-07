@@ -29,12 +29,12 @@ docs:
       - title: "DataScience"
         url: /categories/TIL/DataScience/
         category: "DataScience"
-      - title: "Github page"
-        url: /categories/TIL/githubpage/
-        category: "GitHub Page"
       - title: "Issue"
         url: /categories/TIL/Issue/
         category: "Issue"
+      - title: "Github page"
+        url: /categories/TIL/githubpage/
+        category: "GitHub Page"
   - title: "Project"
     children:
       - title: Projects
