@@ -17,27 +17,27 @@ main:
 
 docs:
   - title: TIL
-  children:
-    - title: "TIL"
-      url: /categories/TIL/
-      category: "TIL"
-    - title: "Algorithm"
-      url: /categories/TIL/Algorithm/
-      category: "Algorithm"
-    - title: "DataScience"
-      url: /categories/TIL/DataScience/
-      category: "DataScience"
-    - title: "Github page"
-      url: /categories/TIL/githubpage/
-      category: "GitHub Page"
-    - title: "Issue"
-      url: /categories/TIL/Issue/
-      category: "Issue"
-  - title: Project
-  url: /categories/Project/
-  category: "Project"
+    children:
+      - title: "TIL"
+        url: /categories/TIL/
+        category: "TIL"
+      - title: "Algorithm"
+        url: /categories/TIL/Algorithm/
+        category: "Algorithm"
+      - title: "DataScience"
+        url: /categories/TIL/DataScience/
+        category: "DataScience"
+      - title: "Github page"
+        url: /categories/TIL/githubpage/
+        category: "GitHub Page"
+      - title: "Issue"
+        url: /categories/TIL/Issue/
+        category: "Issue"
+  - title: "Project"
+    url: /categories/Project/
+    category: "Project"
   - title: 회고
-  chiledren:
-    - title: "멋쟁이 사자처럼 AI School"
-      url: /likelion
-      category: "AI School"
+    chiledren:
+      - title: "멋쟁이 사자처럼 AI School"
+        url: /likelion
+        category: "AI School"
