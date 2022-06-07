@@ -23,6 +23,9 @@ docs:
       - title: "TIL"
         url: /categories/TIL/
         category: "TIL"
+      - title: "TIL 요약"
+        url: /categories/TIL/TILSUM/
+        category: "TILSUM"
       - title: "Algorithm"
         url: /categories/TIL/Algorithm/
         category: "Algorithm"
