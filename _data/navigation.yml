@@ -34,10 +34,7 @@ docs:
         url: /categories/TIL/Issue/
         category: "Issue"
   - title: "Project"
-    url: /categories/Project/
-    category: "Project"
-  - title: 회고
-    chiledren:
-      - title: "멋쟁이 사자처럼 AI School"
-        url: /likelion
-        category: "AI School"
+    children:
+      - title: Projects
+        url: /categories/Project/
+        category: "Project"
