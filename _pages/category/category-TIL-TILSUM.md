@@ -1,6 +1,6 @@
 ---
 title: "Today I Learned 요약"
-permalink: /categories/TIL/TILSUM
+permalink: /categories/TIL/TILSUM/
 layout: category
 author_profile: true
 taxonomy: TILSUM
