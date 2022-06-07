@@ -292,7 +292,8 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
-      sidebar: nav: "docs"
+      sidebar:
+        nav: "docs"
   # _pages
   - scope:
       path: ""
@@ -306,4 +307,5 @@ defaults:
       related: false
       toc: true
       toc_sticky: true
-      sidebar: nav: "docs"
+      sidebar:
+        nav: "docs"
