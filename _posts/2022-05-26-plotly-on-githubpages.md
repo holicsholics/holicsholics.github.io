@@ -4,7 +4,7 @@ title: 깃허브 페이지에서 Plotly 그래프 출력하기
 date: 2022-05-26T00:55:09.080Z
 
 categories:
-  - TIL
+  - GitHub Page
 tags:
   - DataScience
   - TIL
