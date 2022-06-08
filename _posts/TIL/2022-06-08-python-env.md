@@ -33,12 +33,12 @@ $ cd [가상환경 이름]
 #### 활성화
 |플랫폼|셸|명령어|  
 |:-----|:-------------:|:------------------------------------------|  
-|POSIX |bash/zsh       |`$ source [가상환경 이름]/bin/activate`|  
-|      |fish           |`$ source [가상환경 이름]/bin/activate.fish`|  
-|      |csh/tcsh       |`$ source [가상환경 이름]/bin/activate.csh`|  
-|      |PowerShell Core|`$ [가상환경 이름]/bin/Activate.ps1`|  
-|Window|cmd            |`C:\>[가상환경 이름]\Scripts\activate.bat`|  
-|      |PowerShell     |`PS C:\>[가상환경 이름]\Scripts\Activate.ps1`|
+| POSIX | bash/zsh       | `$ source [가상환경 이름]/bin/activate`|  
+| | fish           | `$ source [가상환경 이름]/bin/activate.fish`|  
+|       | csh/tcsh       | `$ source [가상환경 이름]/bin/activate.csh`|  
+|       | PowerShell Core| `$ [가상환경 이름]/bin/Activate.ps1`|  
+| Window | cmd            | `C:\>[가상환경 이름]\Scripts\activate.bat`|  
+|      | PowerShell     | `PS C:\>[가상환경 이름]\Scripts\Activate.ps1`|
 
 #### 비활성화
 ```bash
