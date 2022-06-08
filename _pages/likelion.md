@@ -198,5 +198,5 @@ toc_sticky: true
 - `aggfunc`에서 사용하는 `"sum"`이나 `np.sum`이나 같은 방식
 - 지도 시각화 방법 (`folium`)
 - `GeoJSON`
-- 대시보드 만들기 (`stramlit`, `streamlit-aggrid`)
+- 대시보드 만들기 (`streamlit`, `streamlit-aggrid`)
 - 가상환경 (`venv`, `conda`)
