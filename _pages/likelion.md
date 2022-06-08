@@ -195,5 +195,8 @@ toc_sticky: true
   - `parquet`: 행기반이 아니라, 열기반 -> 같은 데이터 형식끼리 저장되기 때문에 압축률이 높아짐
   - `koalas`: `pyspark`에서 사용하는 대용량 관리 툴, `pandas`보다 더 큰 데이터를 분석할 수 있는 툴
 3. 6월 8일
-- 시각화 방법 (`folium`)
+- `aggfunc`에서 사용하는 `"sum"`이나 `np.sum`이나 같은 방식
+- 지도 시각화 방법 (`folium`)
+- `GeoJSON`
 - 대시보드 만들기 (`stramlit`, `streamlit-aggrid`)
+- 가상환경 (`venv`, `conda`)
