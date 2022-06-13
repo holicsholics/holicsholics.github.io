@@ -1,5 +1,5 @@
 ---
-title: 주요 질병 사망자 및 보건 환경 비교
+title: "[프로젝트] 주요 질병 사망자 및 보건 환경 비교"
 subtitle: 멋쟁이 사자처럼 AI School 6기 MID Project
 date: 2022-06-13T02:24:44.923Z
 
@@ -207,7 +207,7 @@ country_intersection = ['룩셈부르크',  '네덜란드',  '영국',  '이탈�
     
 `**folium을 이용한 지도 시각화**`
 
-<video src=/assets/images/sourceImg/CAoMDDaHE/nmw_folium.mp4 controls="controls" style="max-width: 730px;"></video>
+<video src="/assets/images/sourceImg/CAoMDDaHE/nmw_folium.mp4" controls="controls" style="max-width: 730px;"></video>
     
 (의료 종사자 직업에 따른 분포를 한 눈에 시각화 하기 위해, 원의 크기와 색깔을 활용함)
     
@@ -254,7 +254,7 @@ country_intersection = ['룩셈부르크',  '네덜란드',  '영국',  '이탈�
 ## iii) 보건 관련 지출 EDA 및 시각화
 - 보건 관련 지출 항목
     
-```
+```python
 * 경상보건비 : 매년 소비되는 의료 상품과 서비스를 포함하는 비용
 - 보건 관련 지출에 포함된 항목
 **1. 경상(GDP 대비%)** 
@@ -378,7 +378,7 @@ KOSIS에서 제공하고 있는 보건 관련 지출 항목에는 위와 같이 
             
 국가 별 GDP 규모가 달라, % 가 더 높더라도 실제로 지출되는 공공사회복지비용의 규모는 작을 수 있음. 또한 % 값을 기준으로 대륙 별로 데이터를 가공하거나 하는 경우, 해석에 오해가 생길 수 있어, 아래와 같이 `df_welfare`, `df_gdp` (GDP데이터) 사이 동일한 key 값을 생성하여 merge해 줌.
             
-```
+```python
 # 3. % of gdp > 금액 환산 위해 : key  값 생성 + merge
 df_welfare['key_gdp'] = df_welfare['국가']+df_welfare['연도'].astype(str)
 df_welfare = df_welfare.merge(right = df_gdp, how = 'left', on = 'key_gdp')  
@@ -478,7 +478,7 @@ aus_jp_2017 / (sum_2017- sum_2018) * 100
         
 공공사회복지지출과 다르게 소득 등 특정 기준을 만족하는 국민들에게만 제공됨
         
-```
+```python
 ◎ ***공공사회복지 지출(Public Social Expenditure)***
 공공사회복지 지출은 가구나 개인이 복지에 불리한 환경에 처해있는 동안 공적제도에 의한 사회적 급여나 재정적 지원을 말하며, 지출항목은 노인, 유족, 근로무능력관련 급여, 보건, 가족, 적극적 노동시장 프로그램, 실업, 주거, 기타로 분류됨.
 - 일반정부 지출(공공부조, 사회보상, ***사회복지서비스***) 
@@ -486,7 +486,7 @@ aus_jp_2017 / (sum_2017- sum_2018) * 100
 - 공기업의 취약계층 요금 감면
  ```
         
- ```
+ ```python
 ◎ ***복지서비스 지출 - 세부 항목 구분***
 1. '보건 당기 지출'
  1. '치료 및 재활 치료'
@@ -638,7 +638,7 @@ dict_medicine_cat = {'소화관 및 신진대사': '소화계통',
     
 주요 질병에 대한 사망률과 보건 환경 사이 관계 비교를 위해 KOSIS에서 제공하는 10개 데이터를 분석하였음. 28개 국, 22년치 (1998-2019년) 데이터를 이용하였으며, 각자 맡은 데이터를      분석하고 팀원 간 공유를 통해 의견을 합친 결과, 다음과 같은 결론을 얻을 수 있었음.
     
-```
+```python
 1998년 -> 2019년, 최근으로 가까워질 수록
 1. 평균 사망률은 감소
 2. 전 세계 보건 인프라는 개선
