@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[프로젝트] 교통사고 데이터 시각화 개선 및 추가"
+title: "교통사고 데이터 시각화 개선 및 추가"
 date: 2022-05-29T13:24:34.065Z
 
 categories:

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[프로젝트] Google Trans로 번역하기"
+title: "Google Trans로 번역하기"
 date: 2022-05-08T10:01:33.341Z
 
 categories:

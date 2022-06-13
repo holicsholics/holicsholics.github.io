@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[프로젝트] Openweather API 이용해 날씨 정보 출력하기"
+title: "Openweather API 이용해 날씨 정보 출력하기"
 
 categories:
   - Project

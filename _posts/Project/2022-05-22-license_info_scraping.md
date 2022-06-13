@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[프로젝트] 라이센스 정보 가져오기"
+title: "라이센스 정보 가져오기"
 date: 2022-05-22T06:24:34.659Z
 
 categories:
