@@ -227,3 +227,31 @@ toc_sticky: true
 - 학습 종류
 ![img](/assets/images/sourceImg/learning_type.png)
 - `pandas pivot`은 형태만 변경하고 연산하는 기능은 없다. 
+2. 6월 14일
+- 머신러닝 기초
+- (지도학습) 분류 알고리즘 (classification)
+- (지도학습) 회귀 (regression) 알고리즘
+- 지도학습
+  - 1. Training Data + Training Labels -> Model (머신러닝 알고리즘)
+  - 2. Test Data -> Prediction
+  - 3. Test Labels -> Evaluation
+- 데이터를 불러오면 기본적인 EDA를 실행
+- Garbage in Garbage out
+- `scikit-learn`에서는 행렬 형태는 대문자, 벡터 형태에서는 소문자 형식으로 사용함
+- `CART (Classificaton and Regression Trees` 분류와 회귀에 모두 사용 가능한 트리 계열 알고리즘
+  - 부스팅 계열 알고리즘의 기본이 됨
+- [AI 알고리즘 시각화](https://chrisalbon.com/)
+- 결정 트리 학습법(Decision Tree Learning)
+  - 어떤 항목에 대한 관측값과 목표값을 연결시켜주는 예측 모델로서 결정 트리를 사용
+    - 분류 트리: 목표 변수가 유한한 수의 값
+    - 회귀 트리: 목표 변수가 연속하는 값(일반적으로 실수)
+  - 트리 최상단에는 가장 중요한 질문이 옴
+  - 장점:
+    - 결과를 해석하고 이해하기 쉬움
+    - 자료를 가공할 필요가 없음
+    - 수치 / 범주 자료 모두에 적용 가능
+    - 화이트박스 모델
+    - 안정적
+    - 대규모 데이터 셋에서도 잘 동작
+    - 빠르다 (가장 큰 장점)
+- Overfitting과 Underfitting
