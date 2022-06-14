@@ -18,10 +18,11 @@ use_math: true
 # Pima Indians Diabetes Classification
 `sklearn` 결정 트리를 이용한 분류
 ## 데이터 셋 출처
-[Pima Indians Diabetes Database | Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
-https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html
+[Pima Indians Diabetes Database | Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database)  
+[scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)
 ### 사용 라이브러리
 
+---
 
 ```python
 import numpy as np
@@ -40,6 +41,8 @@ from sklearn.metrics import accuracy_score
 ```python
 df_pima = pd.read_csv("http://bit.ly/data-diabetes-csv")
 ```
+
+---
 
 ### EDA
 
@@ -225,11 +228,15 @@ df_pima.columns.tolist()
 * Age : 나이
 * Outcome : 768개 중에 268개의 결과 클래스 변수(0 또는 1)는 1이고 나머지는 0
 
+---
+
 ### 기본적인 학습
 히스토그램을 보면, `SkinThickness`와 `Insulin`, `BMI`에 이상치가 있다는 사실을 확인 할 수 있지만,  
 일단 전처리를 하지 않은 상태에서 모델 성능 평가를해보고, 이후 하이퍼파라미터 튜닝을 진행하며 차이를 살펴 볼 예정  
 
 지도 학습의 경우 기본적으로 문제의 답을 알려줘야하는데, 해당 데이터 셋에서는 `Outcome`이 답에 해당함
+
+---
 
 #### Note!
 하이퍼파라미터와 파라미터는 다름  
@@ -243,6 +250,8 @@ df_pima.columns.tolist()
   - 평균, 표준편차, 회귀 계수 가중치, 편향 등
 
 하이퍼파라미터의 튜닝 방법은 굉장히 많음
+
+---
 
 #### 데이터 셋 나누기
 
@@ -298,6 +307,8 @@ print(f"X_train: {X_train.shape}\ny_train: {y_test.shape}\nX_test: {X_test.shape
 - `random_state`
 - `shuffle`: 기존 데이터를 나누기 전에 순서를 섞을것인지, `default=True`
 - `stratify`: 지정한 데이터의 비율을 유지, 분류 문제의 경우 해당 옵션이 성능에 영향이 있다고는 함
+
+---
 
 #### 머신러닝 알고리즘 사용
 #### 결정 트리 학습법 (Decision Tree Learning)
@@ -375,6 +386,8 @@ model.fit(X_train, y_train)
 y_pre_1 = model.predict(X_test)
 ```
 
+---
+
 #### 트리 알고리즘 분석
 
 
@@ -408,6 +421,8 @@ plt.show()
 
 결정 트리의 최상위에 `Glucose`가 온 것을 확인 할 수 있음  
 결정 트리의 최상단에는 가장 중요한 feature가 옴
+
+---
 
 ##### 특성(feature)의 중요도 추출하기
 
@@ -445,7 +460,7 @@ _ = sns.barplot(x=model.feature_importances_, y=feature_name).set_title("Feature
     
 ![png](/assets/images/sourceImg/pima_indians_diabetes_classification_files/pima_indians_diabetes_classification_31_0.png)
     
-
+---
 
 #### 성능 평가
 성능 평가 방식은 다양하나 정확도만을 이용해 성능을 평가함
@@ -486,7 +501,7 @@ model.score(X_test, y_test)
 
     0.7142857142857143
 
-
+---
 
 ### 결정 트리 모델의 하이퍼파라미터 조절
 모델을 생성 할 때, 기본적으로 주어지는 피처의 개수나 최대 높이를 제한해 모델을 생성하고 성능을 평가해봄
@@ -514,9 +529,13 @@ accuracy_score(y_test, y_pre_max4)
 3점 정도의 성능 향상이 있음  
 모든 특성을 사용한다고 좋은 성능이 나오는 것은 아님
 
+---
+
 ### Feature Engineering
 Garbage In - Garbage Out, 잘 전처리된 데이터를 사용하면 좋은 성능이 나온다는 의미  
 실제로 모델을 생성하기 이전에 EDA를 통해, 데이터를 분석하고 전처리하는 과정이 중요함
+
+---
 
 #### 수치형 변수를 범주형 변수로 만들기
 
@@ -699,6 +718,8 @@ accuracy_score(y_test, y_pre_max4_Pre_high)
 
 같은 모델에서, 하나의 특성만 수치형에서 범주형으로 변경했는데 3점 정도의 성능 향상이 있었음
 
+---
+
 #### 결측치 처리하기
 
 
@@ -837,6 +858,8 @@ feature_name.remove("Insulin")
 feature_name.append("Insulin_filled")
 ```
 
+---
+
 ##### 중앙값 사용
 
 
@@ -876,6 +899,8 @@ accuracy_score(y_test, y_pre_max4_50_per)
 
 중앙값으로 `Insulin`의 결측치를 대체한 경우 약 11점 정도의 성능 향상이 있음
 
+---
+
 ##### 평균값 사용
 
 
@@ -914,6 +939,8 @@ accuracy_score(y_test, y_pre_max4_mean)
 
 
 `Insulin`의 결측치를 처리하기 이전보다는 약 8점 정도의 성능 향상이 있지만, 중앙값으로 대체한 경우보다는 성능이 3점 정도 낮음
+
+---
 
 #### 이상치(Outlier)
 결측치 처리를 2가지 방식으로 했지만, 이상치를 분석하는 과정은 **평균**으로 처리한 경우를 다룸
@@ -1016,6 +1043,8 @@ accuracy_score(y_test, y_pre_max4_mean_out)
 이상치를 처리한 후에 성능이 조금 떨어졌음  
 통계를 기반으로하는 이상치 처리는 위험할 수도 있음  
 효과적인 이상치 탐색을 위해서는 해당 데이터 변수들의 의미와 도메인을 이해하고 원인을 파악하고 처리해야 됨
+
+---
 
 ### Overfitting과 Underfitting
 해당 개념도 다뤄보고 싶은데, 사용한 데이터 셋의 크기가 작은 편이라 마땅한 방식을 생각하지 못해 개념만 소개하고 넘어가는걸로..  
