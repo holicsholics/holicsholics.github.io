@@ -29,6 +29,12 @@ docs:
       - title: "┗ DataScience"
         url: /categories/TIL/DataScience/
         category: "DataScience"
+      - title: "┗ Machine Learning"
+        url: /categories/TIL/DataScience/ML
+        category: "Machine Learning"
+      - title: "┗ Deep Learning"
+        url: /categories/TIL/DataScience/ML
+        category: "Deep Learning"
       - title: "┗ Issue"
         url: /categories/TIL/Issue/
         category: "Issue"
@@ -40,11 +46,6 @@ docs:
       - title: "┗ Projects"
         url: /categories/Project/
         category: "Project"
-  - title: "Deploying"
-    children:
-      - title: "┗ 주요 질병 사망자 및 보건 환경 비교"
-        url: https://share.streamlit.io/nuyhc/caomddahe/main/intro_main.py
-        category: "deploy"
   - title: "Retrospect"
     children:
       - title: "┗ 주간 회고"
@@ -52,4 +53,9 @@ docs:
         category: "TILSUM"
       - title: "┗ 멋사 AI School 6기 TIL"
         url: /likelion/
+        category: "deploy"
+  - title: "Deploying"
+    children:
+      - title: "┗ 주요 질병 사망자 및 보건 환경 비교"
+        url: https://share.streamlit.io/nuyhc/caomddahe/main/intro_main.py
         category: "deploy"
