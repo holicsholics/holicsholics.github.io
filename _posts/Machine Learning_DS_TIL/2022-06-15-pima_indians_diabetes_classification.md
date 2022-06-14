@@ -11,13 +11,15 @@ tags:
   - matplot
   - DataScience
   - sklearn
+
+use_math: true
 ---
 
 # Pima Indians Diabetes Classification
 `sklearn` 결정 트리를 이용한 분류
 ## 데이터 셋 출처
-- [Pima Indians Diabetes Database | Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
-- https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html
+[Pima Indians Diabetes Database | Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
+https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html
 ### 사용 라이브러리
 
 
@@ -231,14 +233,14 @@ df_pima.columns.tolist()
 
 #### Note!
 하이퍼파라미터와 파라미터는 다름  
-| | Hyperparameter | Parameter |
-| :---: | :---: | :---: |
-| 설명 | 모델 학습 과정에 반영되는 값 | 모델 내부에서 결정되는 변수 |
-| | 학습 전에 조절해야 됨 | 학습 또는 예측되는 값 |
-| 예시 | 학습률 | 평균, 표준편차 |
-| | 손실함수 | 회귀 계수 |
-| | 배치 사이즈 | 가중치, 편향 |
-| 조정 여부 | 가능 | 불가 |
+
+- Hyperparameter (하이퍼파라미터)
+  - 모델 학습 과정에 반영되는 값으로, 학습 전에 조절해야 됨
+  - 학습률, 손실함수, 배치 사이즈 등
+- Parameter (파라미터)
+  - 모델 내부에서 결정되는 변수, 학습 또는 예측에 사용되는 값
+  - 직접 조절이 불가능 함
+  - 평균, 표준편차, 회귀 계수 가중치, 편향 등
 
 하이퍼파라미터의 튜닝 방법은 굉장히 많음
 
@@ -315,7 +317,7 @@ print(f"X_train: {X_train.shape}\ny_train: {y_test.shape}\nX_test: {X_test.shape
 
 #### 지니 불순도 (Gini Impurity)
 집합에 이질적인 것이 얼마나 섞여는지를 측정하는 지표  
-$ I_G(f) = \sum_{i=1}^{m} f_i(1-f_i) $
+$I_G(f) = \sum_{i=1}^{m} f_i(1-f_i)$
 - 불확실성을 의미 -> 얼마나 많은 것들이 섞여있는가?
 - 한가지 특성을 가진 객체만 있을수록 집단을 설명하기 좋음
   - 특성이 동일해질수록 낮아짐
