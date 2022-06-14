@@ -40,7 +40,7 @@ docs:
       - title: "┗ Projects"
         url: /categories/Project/
         category: "Project"
-  - title: "Deploying with Streamlit"
+  - title: "Deploying"
     children:
       - title: "┗ 주요 질병 사망자 및 보건 환경 비교"
         url: https://share.streamlit.io/nuyhc/caomddahe/main/intro_main.py
@@ -51,4 +51,3 @@ docs:
         category: "TILSUM"
       - title: "┗ 멋사 AI School 6기"
         url: /likelion/
-        category: "/"
