@@ -18,30 +18,32 @@ main:
   #   url: /sitemap/
 
 docs:
-  - title: TIL
+  - title: "Cheat Sheets"
     children:
       - title: "┗ TIL"
         url: /categories/TIL/
-        category: "TIL"
-      - title: "┗ TIL 요약"
-        url: /categories/TIL/TILSUM/
-        category: "TILSUM"
+        # category: "TIL"
       - title: "┗ Algorithm"
         url: /categories/TIL/Algorithm/
-        category: "Algorithm"
+        # category: "Algorithm"
       - title: "┗ DataScience"
         url: /categories/TIL/DataScience/
-        category: "DataScience"
+        # category: "DataScience"
       - title: "┗ Issue"
         url: /categories/TIL/Issue/
-        category: "Issue"
+        # category: "Issue"
       - title: "┗ Github page"
         url: /categories/TIL/githubpage/
-        category: "GitHub Page"
+        # category: "GitHub Page"
   - title: "Project"
     children:
       - title: "┗ Projects"
         url: /categories/Project/
-        category: "Project"
-  - title: "멋쟁이 사자처럼"
-    url: /likelion/
+        # category: "Project"
+  - title: "Retrospect"
+    children:
+      - title: "┗ 주간 회고"
+        url: /categories/TIL/TILSUM/
+        # category: "TILSUM"
+      - title: "┗ 멋사 AI School 6기"
+        url: /likelion/
