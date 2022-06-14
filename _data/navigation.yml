@@ -44,12 +44,12 @@ docs:
     children:
       - title: "┗ 주요 질병 사망자 및 보건 환경 비교"
         url: https://share.streamlit.io/nuyhc/caomddahe/main/intro_main.py
-        category: "Deploying"
+        category: "count"
   - title: "Retrospect"
     children:
       - title: "┗ 주간 회고"
         url: /categories/TIL/TILSUM/
         category: "TILSUM"
-      - title: "┗ 멋사 AI School 6기"
+      - title: "┗ 멋사 AI School 6기 TIL"
         url: /likelion/
         category: "count"

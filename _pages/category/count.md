@@ -1,6 +1,7 @@
 ---
-title: "숫자 표시용"
+title: "-"
 permalink: /count/
 layout: category
 taxonomy: count
+search: false
 ---
