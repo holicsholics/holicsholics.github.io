@@ -40,10 +40,10 @@ docs:
       - title: "┗ Projects"
         url: /categories/Project/
         category: "Project"
-      - title: "Deploying"
-        children:
-          - title: "┗ 주요 질병 사망자 및 보건 환경 비교 Dash board"
-            url: https://share.streamlit.io/nuyhc/caomddahe/main/intro_main.py
+  - title: "Deploying"
+    children:
+      - title: "┗ 주요 질병 사망자 및 보건 환경 비교 Dash board"
+        url: https://share.streamlit.io/nuyhc/caomddahe/main/intro_main.py
   - title: "Retrospect"
     children:
       - title: "┗ 주간 회고"
@@ -51,3 +51,4 @@ docs:
         category: "TILSUM"
       - title: "┗ 멋사 AI School 6기"
         url: /likelion/
+        category: "Empty"
