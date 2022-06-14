@@ -73,7 +73,7 @@ google:
   search_engine_id       : "e0080a1195925c72d" # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "CgbwlYIDDeTHiOQHJ4WOp4Z2QZP-c16AllyrRK3oh6A"
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
