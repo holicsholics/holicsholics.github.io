@@ -20,26 +20,26 @@ main:
 docs:
   - title: TIL
     children:
-      - title: "TIL"
+      - title: "┗ TIL"
         url: /categories/TIL/
         category: "TIL"
-      - title: "TIL 요약"
+      - title: "┗ TIL 요약"
         url: /categories/TIL/TILSUM/
         category: "TILSUM"
-      - title: "Algorithm"
+      - title: "┗ Algorithm"
         url: /categories/TIL/Algorithm/
         category: "Algorithm"
-      - title: "DataScience"
+      - title: "┗ DataScience"
         url: /categories/TIL/DataScience/
         category: "DataScience"
-      - title: "Issue"
+      - title: "┗ Issue"
         url: /categories/TIL/Issue/
         category: "Issue"
-      - title: "Github page"
+      - title: "┗ Github page"
         url: /categories/TIL/githubpage/
         category: "GitHub Page"
   - title: "Project"
     children:
-      - title: Projects
+      - title: "┗ Projects"
         url: /categories/Project/
         category: "Project"
