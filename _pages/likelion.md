@@ -232,13 +232,13 @@ toc_sticky: true
 - (지도학습) 분류 알고리즘 (classification)
 - (지도학습) 회귀 (regression) 알고리즘
 - 지도학습
-  - 1. Training Data + Training Labels -> Model (머신러닝 알고리즘)
-  - 2. Test Data -> Prediction
-  - 3. Test Labels -> Evaluation
+  - Training Data + Training Labels -> Model (머신러닝 알고리즘)
+  - Test Data -> Prediction
+  - Test Labels -> Evaluation
 - 데이터를 불러오면 기본적인 EDA를 실행
 - Garbage in Garbage out
 - `scikit-learn`에서는 행렬 형태는 대문자, 벡터 형태에서는 소문자 형식으로 사용함
-- `CART (Classificaton and Regression Trees` 분류와 회귀에 모두 사용 가능한 트리 계열 알고리즘
+- `CART (Classificaton and Regression Trees)` 분류와 회귀에 모두 사용 가능한 트리 계열 알고리즘
   - 부스팅 계열 알고리즘의 기본이 됨
 - [AI 알고리즘 시각화](https://chrisalbon.com/)
 - 결정 트리 학습법(Decision Tree Learning)
