@@ -22,28 +22,32 @@ docs:
     children:
       - title: "┗ TIL"
         url: /categories/TIL/
-        # category: "TIL"
+        category: "TIL"
       - title: "┗ Algorithm"
         url: /categories/TIL/Algorithm/
-        # category: "Algorithm"
+        category: "Algorithm"
       - title: "┗ DataScience"
         url: /categories/TIL/DataScience/
-        # category: "DataScience"
+        category: "DataScience"
       - title: "┗ Issue"
         url: /categories/TIL/Issue/
-        # category: "Issue"
+        category: "Issue"
       - title: "┗ Github page"
         url: /categories/TIL/githubpage/
-        # category: "GitHub Page"
+        category: "GitHub Page"
   - title: "Project"
     children:
       - title: "┗ Projects"
         url: /categories/Project/
-        # category: "Project"
+        category: "Project"
+      - title: "Deploying"
+        children:
+          - title: "┗ 주요 질병 사망자 및 보건 환경 비교 Dash board"
+            url: https://share.streamlit.io/nuyhc/caomddahe/main/intro_main.py
   - title: "Retrospect"
     children:
       - title: "┗ 주간 회고"
         url: /categories/TIL/TILSUM/
-        # category: "TILSUM"
+        category: "TILSUM"
       - title: "┗ 멋사 AI School 6기"
         url: /likelion/
