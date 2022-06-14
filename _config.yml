@@ -96,9 +96,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-LJVFHDQ9P5"
+    tracking_id          : # UA 아이디인거 같은데 23년에 종료한다고 함
+    measurement_id       : "G-LJVFHDQ9P5"
     anonymize_ip         : # true, false (default)
 
 
