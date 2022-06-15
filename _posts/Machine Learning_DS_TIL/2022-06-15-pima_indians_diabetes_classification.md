@@ -1,5 +1,5 @@
 ---
-title: Pima Indian 데이터를 이용한 의사 결정 트리 분류
+title: Pima Indian 데이터를 이용한 결정 트리 분류
 date: 2022-06-14T16:43:17.179Z
 
 categories:
