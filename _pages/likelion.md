@@ -255,3 +255,19 @@ toc_sticky: true
     - 대규모 데이터 셋에서도 잘 동작
     - 빠르다 (가장 큰 장점)
 - Overfitting과 Underfitting
+3. 6월 15일
+- (지도 학습) 회귀 (regression) 알고리즘
+- 결정 트리의 최상단 값은 상관 계수와는 별개의 개념인 듯
+  - `model.feature_importances_`가 높은것이 옴
+- 교차 검증 (cross-validation)
+  - K-fold cross validation
+  - 모델 성능에 직접적인 영향은 없고, 평가의 정확도를 높이는 목적으로 사용
+- 회귀 평가 방법
+  - MAE (Mean Abs Err)
+  - MAPE (Mean Abs Perventage Err)
+  - MSE (Mean Squared Err)
+  - RMSE (Root Mean Squared Err)
+- 하이퍼파라미터 튜닝
+  - 그리드 서치 (Grid Search): 지정된 구간에 대한 값에 대한 탐삭
+  - 랜덤 서치 (Random Search): 지정된 구간 외에 최적 값이 있을 경우를 대비해, 랜덤한 값을들 지정해 성능을 평가하고 가장 좋은 파라미터를 찾아냄
+  - 라틴 하이퍼 큐브 샘플링 (Random Latin Hypercube): 다차원 분포에서 매개변수 값의 거의 무작위 샘플을 생성하기 위한 통계적 방법
