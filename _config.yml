@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "nuyhc"
-  avatar           : "assets/images/tree_prism.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/coding_y_glass.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "꾸준히 성장하고 싶은 개발자"
   location         : "Republic of Korea"
   email            : "spec327@naver.com"
