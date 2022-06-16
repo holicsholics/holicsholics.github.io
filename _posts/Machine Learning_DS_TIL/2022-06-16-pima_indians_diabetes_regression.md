@@ -369,7 +369,7 @@ _ = sns.displot(abs(error), height=2, aspect=5)
 
 #### MAE(Mean Absolut Error)
 평균 절대 오차라고하며, 평균 절대 편차/차이와는 다른 개념임  
-$ MAE = {\sum_{i=1}^n err_i \over n }$
+$MAE = {\sum_{i=1}^n err_i \over n }$
 
 
 ```python
@@ -387,7 +387,7 @@ abs(error).mean()
 평균 절대비 오차라하며, 퍼센트 값을 가짐  
 0에 가까울수록 회귀 모형의 성능이 좋다고 해석 가능  
 평균 절대 백분율 편차 (MAPD)라고도 함  
-$ MAPE = {100\% \over n} \sum_{t=1}^n |{y-\hat y \over y}| $
+$MAPE = {100\% \over n} \sum_{i=1}^n |{y_i-\hat y_i \over y_i}|$
 
 
 ```python
