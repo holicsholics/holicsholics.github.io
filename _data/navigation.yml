@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Search"
+  - title: "🔍Search"
     url: /search/
-  - title: "About"
+  - title: "💡About"
     url: /about/
-  - title: "Home"
+  - title: "🏠Home"
     url: https://nuyhc.github.io/
-  - title: Category
+  - title: "🗂️Category"
     url: /categories/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
