@@ -122,4 +122,137 @@ confusion_matrix(y_pred, y_test)
 
 위와 같이 정확도도 구할 수 있음
 
-### 정밀도와 재현율 ()
+### 정밀도와 재현율 (Precision and Recall)
+Positive 데이터 세트의 예측 성능에 좀 더 초첨을 맞춘 평가 지표  
+#### 정밀도 (Precision)
+양성 예측도라고도 불림  
+실제 음성인 값을 양성으로 판단하면 안되는 경우 중요 (스팸 메일 분류 등)  
+$ Precision = {TP \over (FP + TP)} $
+
+#### 재현율 (Recall)
+민감도(sensitivity) 또는 TRP(True Positive Rate)라고도 불림  
+실제 양성인 값을 음성으로 판단하면 안되는 경우 중요 (암 판단 모델 등)  
+$ Recall = {TP \over (FN + TP)} $  
+
+민감도와 대응하는 지표로 TNR(True Negative Rate)라 불리는 특이성(specificity)가 있음  
+$ TNR = {TN \over (FP + TN)} $
+
+
+```python
+from sklearn.metrics import precision_score, recall_score
+
+print(f"Precision: {precision_score(y_pred, y_test)}\nRecall: {recall_score(y_pred, y_test)}")
+```
+
+    Precision: 0.6181818181818182
+    Recall: 0.5964912280701754
+    
+
+
+```python
+precision = 34 / (21+34)
+recall = 34 / (23+34)
+
+print(f"Precision: {precision}\nRecall: {recall}")
+```
+
+    Precision: 0.6181818181818182
+    Recall: 0.5964912280701754
+    
+
+정밀도와 재현율은 상호 보완적 관계로, 한가지가 증가하면 다른 한가지는 감소함 -> **정밀도/재현율 트레이드오프(trade-off)**
+
+### F1 score
+정밀도와 재현율을 결합한 지표로, 정밀도와 재현율이 어느 한쪽으로 치우치지 않는 수치를 나타낼 때 상대적으로 높은 값을 가짐  
+$ F1 = {2 \over {1 \over Recall} + {1 \over Precision}} = {2 \times {Precision \times Recall \over {Precision + Recall}}} $
+
+
+```python
+from sklearn.metrics import f1_score
+
+f1_score(y_pred, y_test)
+```
+
+
+
+
+    0.607142857142857
+
+
+
+
+```python
+2 / ((1/recall) + (1/precision))
+```
+
+
+
+
+    0.6071428571428572
+
+
+
+### ROC 곡선과 AUC
+#### ROC (Receiver Operation Characteristic Curve)
+수신자 판단 곡선으로, FPR이 변할 때 TPR이 어떻게 변하는지 나타낸 곡선 (`x=FPR, y=TPR`)  
+임계값(threshold) 개념이 적용ㄷ함
+
+
+```python
+from sklearn.metrics import roc_curve
+
+fpr, tpr, thr = roc_curve(y_pred, y_test)
+```
+
+
+```python
+fpr
+```
+
+
+
+
+    array([0.        , 0.21649485, 1.        ])
+
+
+
+
+```python
+tpr
+```
+
+
+
+
+    array([0.        , 0.59649123, 1.        ])
+
+
+
+
+```python
+thr
+```
+
+
+
+
+    array([2, 1, 0], dtype=int64)
+
+
+
+#### AUC (Area Under Curve)
+ROC 곡선 밑의 면적을 구한 것으로, 일반적으로 1에 가까울수록 좋음
+
+
+```python
+from sklearn.metrics import roc_auc_score
+
+roc_auc_score(y_pred, y_test)
+```
+
+
+
+
+    0.6899981913546753
+
+
