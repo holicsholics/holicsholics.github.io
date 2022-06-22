@@ -320,3 +320,29 @@ toc_sticky: true
 - `cross_val_predict`을 사용하는 경우, 다양한 평가 방식을 적용해 볼 수 있음
 - 교차 검증하고 모델 사용하는 방법이 너무 헷갈림.. 너무 왔다갔다해서 그런가..
 - `cross_val_~` 함수를 써서 검증한 경우, 따로 `fit`을 시켜야 함
+3. 6월 22일
+- `log1p`와 `expm1`을 이용해, taget을 변환하고 복구해 학습 및 성능 평가를 하는 방법
+  - `RMSLE` = `neg_root_mean_squared_error`
+  - 너무 큰 값, 편향된 값들을 평탄화 시켜주는 과정
+  - 일반적으로, 왜도, 첨도가 높을 때 로그를 통해 정규분포로 바꾼다
+- 신호와 소음을 잘 구분하자
+- Kaggle House Prices 회귀 실습
+- Feature Engineering(특성 공학)
+  - EDA가 중요
+  - 통계적 개념이 많이 적용됨
+  - Categorical
+    - Nominal: 순서가 없음 (성별, 음료수 종류)
+    - Ordinal: 자연적인 순서가 있음 (성적, 등급)
+  - Numeric
+    - Discete: 유한 (물건의 개수, 행동 횟수)
+    - Contunuous: 무한 (물건의 개수, 시간)
+- 종류
+  - 특성 선택(Feature Selection)
+  - 특성 추출(Feature Extraction)
+  - 범위 변환(Scaling)
+    - Normalization(Z-score): 평균을 제거하고 데이터를 단위 분산에 맞게 조정
+    - Min-Max: 지정된 범위로 확장하여 기능을 변환 (default=[0,1])
+    - Robust: 중앙값을 제거하고 분위수(default=IQR)에 따라 데이터 크기를 조정 -> boxplot
+  - 변형(Transform)
+  - 범주화(Binning)
+  - 숫자화(Dummy)
