@@ -293,7 +293,9 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
+      toc_ads: true
       show_date: true
+      use_math: true
       sidebar:
         nav: "docs"
   # _pages
@@ -309,5 +311,7 @@ defaults:
       related: false
       toc: true
       toc_sticky: true
+      toc_ads: true
+      use_math: true
       sidebar:
         nav: "docs"
