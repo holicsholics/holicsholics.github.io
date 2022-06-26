@@ -4,10 +4,10 @@ title: "Google Trans로 번역하기"
 date: 2022-05-08T10:01:33.341Z
 
 categories:
-    - Project
+    - TIL
 tags:
     - Google Trans
-    - Project
+    - DataScience
 
 toc: true
 toc_sticky: true

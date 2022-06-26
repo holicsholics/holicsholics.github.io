@@ -4,7 +4,7 @@ title: "KOSIS 암 검진 데이터 시각화"
 date: 2022-06-06T12:10:05.401Z
 
 categories:
-  - Project
+  - DataScience
 tags:
   - pandas
   - seaborn

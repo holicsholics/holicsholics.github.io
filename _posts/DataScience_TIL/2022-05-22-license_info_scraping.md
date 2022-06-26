@@ -4,7 +4,7 @@ title: "라이센스 정보 가져오기"
 date: 2022-05-22T06:24:34.659Z
 
 categories:
-  - Project
+  - DataScience
 tags:
   - Project
   - pandas

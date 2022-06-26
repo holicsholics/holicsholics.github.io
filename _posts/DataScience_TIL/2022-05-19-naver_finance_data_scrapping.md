@@ -4,7 +4,7 @@ title: "스크래핑을 이용해 네이버 금융 정보(뉴스, 시세) 수집
 date: 2022-05-18T16:19:40.935Z
 
 categories:
-  - Project
+  - DataScience
 tags:
   - Project
   - pandas

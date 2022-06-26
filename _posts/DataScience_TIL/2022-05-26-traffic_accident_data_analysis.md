@@ -4,7 +4,7 @@ title: "교통사고 데이터 시각화"
 date: 2022-05-26T04:40:47.697Z
 
 categories:
-  - Project
+  - DataScience
 tags:
   - plotly
   - pandas

@@ -3,7 +3,7 @@ layout: single
 title: "Openweather API 이용해 날씨 정보 출력하기"
 
 categories:
-  - Project
+  - TIL
 tags:
   - Openweather
   - API

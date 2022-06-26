@@ -4,7 +4,7 @@ title: "아파트 분양 가격 동향 EDA 및 시각화"
 date: 2022-06-02T14:26:23.147Z
 
 categories:
-  - Project
+  - DataScience
 tags:
   - pandas
   - DataScience
