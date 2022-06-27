@@ -340,7 +340,7 @@ toc_sticky: true
   - 특성 선택(Feature Selection)
   - 특성 추출(Feature Extraction)
   - 범위 변환(Scaling)
-    - Normalization(Z-score): 평균을 제거하고 데이터를 단위 분산에 맞게 조정
+    - StandardScaler(Z-score): 평균을 제거하고 데이터를 단위 분산에 맞게 조정
     - Min-Max: 지정된 범위로 확장하여 기능을 변환 (default=[0,1])
     - Robust: 중앙값을 제거하고 분위수(default=IQR)에 따라 데이터 크기를 조정 -> boxplot
   - 변형(Transform)
@@ -384,3 +384,24 @@ toc_sticky: true
   - EDA를하는 베이스라인은 정해졌는데, 추가적으로 필요하거나 파생변수 생성/삭제 등에 있어서는 많이 부족한거 같음
   - 시각화 부분도..
 - 정규표현식은 연습이 필요할꺼 같음
+
+## 9주차 (22-06-27 ~ 22-07-01)
+1. 6월 27일
+- 범위 변환(Scaling)
+  - `fit`은 `train`에만 진행하고, `test`에는 진행하지 않음
+  - `transform`은 양쪽 모두에 적용
+  - `fit_transform`을하고 `train`에만 `transform`을하는 방식
+  - 2개의 데이터가 합쳐져있는 경우에는 함께 진행
+  - 각각의 평균과 표준편차가 다르기 때문에, 0과 1로 변환된 평균과 표준편차 값이 서로 다른 값을 의미하게 됨
+- 범주화(Binning): 연속형 변수 -> 범주형 변수
+  - Equal width binning (`_cut`)
+    - 가능한 값의 범위를 동일한 너비의 N개의 빈으로 나눔, 편향된 분포에 민감
+  - Equal frequency binning (`_qcut`)
+    - 변수의 가능한 값 범위를 N개의 빈으로 나눔 (각 빈은 동일한 양의 관측값), 알고리즘의 성능을 올리지만 관계를 방해할 가능성이 있음
+- 숫자화(Dummy): 범주형 변수 -> 연속형 변수
+  - 인코딩(Encoding) -> Ordianl-Encoding, One-hot Encoding
+    - Categorical Feature의 고유값들을 임의의 숫자로 바꿈 (Ordinal-Encoding)
+- 정규분포 형태가 모델 학습에 도움이 됨
+- 파생변수 생성 (Feature Generation)
+  - 이미 존재하는 변수로부터 여러가지 방법을 이용해 새로운 변수를 만들어낼 수 있음
+  - 적합한 파생변수는 모델 성능 향상에 도움이 됨
