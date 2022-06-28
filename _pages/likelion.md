@@ -432,9 +432,9 @@ toc_sticky: true
   - 간단한 작동 원리, 빠른 학습 속도, 조절할 파라미터 양이 적음, 이상치 영향이 큼
   - 수치형 변수만 있거나 경향성이 뚜렷한 경우 좋음
   - 보완한 모델
-    - Ridge
-    - Lasso
-    - ElasticNet
+      - Ridge
+      - Lasso
+      - ElasticNet
 
 
 - 배깅은 비상관화 시켜주는 과정  
