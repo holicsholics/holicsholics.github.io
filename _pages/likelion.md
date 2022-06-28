@@ -434,7 +434,9 @@ toc_sticky: true
   - 보완한 모델
     - Ridge
     - Lasso
-    - ElasticNet  
+    - ElasticNet
+
+
 - 배깅은 비상관화 시켜주는 과정  
 - 오버피팅이 있을때, 배깅이 더 좋은 성능을 보이는 경우가 있음  
   - 트리들이 비상관화 되어 있어서  
