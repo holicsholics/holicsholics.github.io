@@ -419,7 +419,7 @@ toc_sticky: true
   - catboost
 - 전체에 대해 구하는 경우 -> err
 - 표본(sample)을 통해 구하는 경우 -> residual(잔차)
-- `MSE`는 이상치에 민감함 -> 보완 -> `Hubber loss`, `Quantile loss`
+- `MSE`는 이상치에 민감함 -> 보완 -> `Huber loss`, `Quantile loss`
 - `MAE`를 사용하는 경우, 방향은 다르나 기울기가 같은 값만 나와 잘 사용하지 않음 (부호가 바뀌기전까지 기울기가 유지)
 - 제조업에서 머신러닝의 필요성
   - 품질 관리
@@ -444,3 +444,25 @@ toc_sticky: true
   - 데이터 추출시 고른 데이터 샘플을 얻을 수 있음  
   - 결측치 처리가 필요 없어짐  
 - 범주형 데이터가 많은 경우 `catboost`가 좋은 성능을 보임 
+
+3. 6월 29일
+- 랜덤포레스트 (배깅) -> 무작위성
+- 그래디언트 부스팅 트리 -> 무작위성 없이, 이전 트리를 개선하는 방식
+- GOSS(Gradient bassed One Side Sampling) -> 행을 어떻게 줄일 것인지
+- EFB(Exclusive Feature Bundling) -> 열을 어떻게 줄일 것인지
+- CatBoost: 대칭트리, 예측 시간 감소
+- XGBoost: BFS처럼 넓게 형성
+- LightGBM: DFS처럼 깊게 형성
+- Confusion Matrix (혼돈 행렬)
+  - precision(정밀도): 1로 예측한것중 진짜 1인것
+  - recall(재현율): 실제값이 1인것 중에 맞게 추론한것
+  - specificity(특이도)
+- Resampling
+  - Oversampling (`imbalanced-learn`)
+    - SMOTE(Synthetic Minority Over-sampling Technique)
+    - 합성 소수자 오버 샘플링 기법
+    - K-근접 이웃 이용
+  - Undersampling
+    - 구현은 쉽지만, 성능 저하 가능성이 있음
+    - 부트스트래핑
+- `ravel` / `flatten`
