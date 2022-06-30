@@ -456,10 +456,12 @@ toc_sticky: true
   - specificity(특이도)
 - Resampling
   - Oversampling (`imbalanced-learn`)
-     - SMOTE(Synthetic Minority Over-sampling Technique)
-     - 합성 소수자 오버 샘플링 기법
-     - K-근접 이웃 이용
+      - SMOTE(Synthetic Minority Over-sampling Technique)
+      - 합성 소수자 오버 샘플링 기법
+      - K-근접 이웃 이용
   - Undersampling
-     - 구현은 쉽지만, 성능 저하 가능성이 있음
-     - 부트스트래핑
-- `ravel` / `flatten`
+      - 구현은 쉽지만, 성능 저하 가능성이 있음
+      - 부트스트래핑  
+- `ravel` / `flatten`  
+4. 6월 30일
+- 인싸타임
