@@ -393,18 +393,18 @@ toc_sticky: true
   - `fit_transform`을하고 `train`에만 `transform`을하는 방식
   - 2개의 데이터가 합쳐져있는 경우에는 함께 진행
   - 각각의 평균과 표준편차가 다르기 때문에, 0과 1로 변환된 평균과 표준편차 값이 서로 다른 값을 의미하게 됨
-- 범주화(Binning): 연속형 변수 -> 범주형 변수
-  - Equal width binning (`_cut`)
-    - 가능한 값의 범위를 동일한 너비의 N개의 빈으로 나눔, 편향된 분포에 민감
-  - Equal frequency binning (`_qcut`)
-    - 변수의 가능한 값 범위를 N개의 빈으로 나눔 (각 빈은 동일한 양의 관측값), 알고리즘의 성능을 올리지만 관계를 방해할 가능성이 있음
+- 범주화(Binning): 연속형 변수 -> 범주형 변수  
+  - Equal width binning (`_cut`)  
+     - 가능한 값의 범위를 동일한 너비의 N개의 빈으로 나눔, 편향된 분포에 민감  
+  - Equal frequency binning (`_qcut`)  
+     - 변수의 가능한 값 범위를 N개의 빈으로 나눔 (각 빈은 동일한 양의 관측값), 알고리즘의 성능을 올리지만 관계를 방해할 가능성이 있음
 - 숫자화(Dummy): 범주형 변수 -> 연속형 변수
-  - 인코딩(Encoding) -> Ordianl-Encoding, One-hot Encoding
-    - Categorical Feature의 고유값들을 임의의 숫자로 바꿈 (Ordinal-Encoding)
+   - 인코딩(Encoding) -> Ordianl-Encoding, One-hot Encoding
+     - Categorical Feature의 고유값들을 임의의 숫자로 바꿈 (Ordinal-Encoding)
 - 정규분포 형태가 모델 학습에 도움이 됨
 - 파생변수 생성 (Feature Generation)
-  - 이미 존재하는 변수로부터 여러가지 방법을 이용해 새로운 변수를 만들어낼 수 있음
-  - 적합한 파생변수는 모델 성능 향상에 도움이 됨
+   - 이미 존재하는 변수로부터 여러가지 방법을 이용해 새로운 변수를 만들어낼 수 있음
+   - 적합한 파생변수는 모델 성능 향상에 도움이 됨
 2. 6월 28일
 - `None`으로 결측치를 대체하는 경우, 인코딩시 **없다**라는 정보도 정보로 취급 가능
 - 연속된 수치 데이터도 인코딩이 가능함 -> 수치 데이터 개수만큼 컬럼이 생김, **순서성(원의미)**을 잃어버림
@@ -432,9 +432,9 @@ toc_sticky: true
   - 간단한 작동 원리, 빠른 학습 속도, 조절할 파라미터 양이 적음, 이상치 영향이 큼
   - 수치형 변수만 있거나 경향성이 뚜렷한 경우 좋음
   - 보완한 모델
-      - Ridge
-      - Lasso
-      - ElasticNet  
+       - Ridge
+       - Lasso
+       - ElasticNet  
 - 배깅은 비상관화 시켜주는 과정  
 - 오버피팅이 있을때, 배깅이 더 좋은 성능을 보이는 경우가 있음  
   - 트리들이 비상관화 되어 있어서  
@@ -456,10 +456,10 @@ toc_sticky: true
   - specificity(특이도)
 - Resampling
   - Oversampling (`imbalanced-learn`)
-    - SMOTE(Synthetic Minority Over-sampling Technique)
-    - 합성 소수자 오버 샘플링 기법
-    - K-근접 이웃 이용
+     - SMOTE(Synthetic Minority Over-sampling Technique)
+     - 합성 소수자 오버 샘플링 기법
+     - K-근접 이웃 이용
   - Undersampling
-    - 구현은 쉽지만, 성능 저하 가능성이 있음
-    - 부트스트래핑
+     - 구현은 쉽지만, 성능 저하 가능성이 있음
+     - 부트스트래핑
 - `ravel` / `flatten`
