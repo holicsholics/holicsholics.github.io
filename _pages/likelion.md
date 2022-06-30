@@ -465,3 +465,22 @@ toc_sticky: true
 - `ravel` / `flatten`  
 4. 6월 30일
 - 인싸타임
+- 추천 이력을 저장하고 이용하기
+- 파일 시스템
+  - 정보를 디스크에 저장하는 단위
+```python
+# 파일 생성
+# a: 파일이 존재하면 뒤에 이어 붙이고, 없으면 생성한 뒤 write
+with open("test.txt", "w") as f:
+  f.write("~~~~")
+
+# 배열처럼 인식해, 한줄씩 읽어옴
+with open("test.txt", "r") as f:
+  for line in f:
+    print(line)
+```
+- 파이프
+- 입출력전환
+- 가치가 만들어지는 순서로 작업하기
+  - 빨리 개발하기 X
+  - 변환에 잘 대응하기 O
