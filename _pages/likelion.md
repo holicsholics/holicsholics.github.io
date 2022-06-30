@@ -456,12 +456,12 @@ toc_sticky: true
   - specificity(특이도)
 - Resampling
   - Oversampling (`imbalanced-learn`)
-      - SMOTE(Synthetic Minority Over-sampling Technique)
-      - 합성 소수자 오버 샘플링 기법
-      - K-근접 이웃 이용
+       - SMOTE(Synthetic Minority Over-sampling Technique)
+       - 합성 소수자 오버 샘플링 기법
+       - K-근접 이웃 이용
   - Undersampling
-      - 구현은 쉽지만, 성능 저하 가능성이 있음
-      - 부트스트래핑  
+       - 구현은 쉽지만, 성능 저하 가능성이 있음
+       - 부트스트래핑  
 - `ravel` / `flatten`  
 4. 6월 30일
 - 인싸타임
@@ -485,4 +485,4 @@ with open("test.txt", "r") as f:
 - 입출력전환
 - 가치가 만들어지는 순서로 작업하기
   - 빨리 개발하기 X
-  - 변환에 잘 대응하기 O
+  - 변화에 잘 대응하기 O
