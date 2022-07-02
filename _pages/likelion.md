@@ -497,13 +497,12 @@ with open("test.txt", "r") as f:
   for line in f:
     print(line)
 ```
+
 - 파이프
 - 입출력전환
 - 가치가 만들어지는 순서로 작업하기
   - 빨리 개발하기 X
   - 변화에 잘 대응하기 O  
-
-
 5. 6월 31일
 - Tableau 특강  
 
