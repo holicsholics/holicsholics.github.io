@@ -3,7 +3,7 @@ title: Kaggle Santander Customer 기본 모델(XGBoost, LightGBM)
 date: 2022-06-28T15:02:36.459Z
 
 categories:
-  - Machine Learnig
+  - Machine Learning
 tags:
   - DataScience
   - Machine Learning
