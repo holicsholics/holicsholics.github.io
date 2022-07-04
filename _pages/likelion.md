@@ -514,7 +514,7 @@ with open("test.txt", "r") as f:
 ---
 
 ## 10주차 (22-07-04 ~ 22-07-08)
-1. 7월 4일
+1. 7월 4일  
 - ML 마무리
 - 이진 분류에서의 평가
   - 정확도 (Accuracy)
@@ -555,22 +555,21 @@ with open("test.txt", "r") as f:
     - Huber (Huber 손실)
     - LogCosh (예측 오차의 쌍곡선 코사인의 로그)
     - MeanAbsoluteErr
-    - MeanAbsulutePercentageErr
-- 옵티마이저 (Optimizer)
-  - 데이터와 손실함수를 기반으로 모델이 업데이트되는 방식
-- 경사하강법 (Gradient Descent)
-  - 가중치를 움직이며 최솟값을 찾는 방법 (최적화 방법)
-- 확률적 경사하강법(SGD, Stochastic Gradient Descent)
-  - 랜덤하게 추출한 일부 데이터에 대해 가중치를 조절
-  - 속도는 개선되었지만, 극소 문제(loval minima)가 남아있음
-- 딥러닝 과정
-  - 층 구성 `keras.sequential()`
-  - 컴파일 `model.compile()`
-  - 요약 `model.summary()`
-  - 학습 `model.fit()`
-  - 예측 `model.predict()`
-  - 평가 `model.evaluate()`
-
+    - MeanAbsulutePercentageErr  
+- 옵티마이저 (Optimizer)  
+  - 데이터와 손실함수를 기반으로 모델이 업데이트되는 방식  
+- 경사하강법 (Gradient Descent)  
+  - 가중치를 움직이며 최솟값을 찾는 방법 (최적화 방법)  
+- 확률적 경사하강법(SGD, Stochastic Gradient Descent)  
+  - 랜덤하게 추출한 일부 데이터에 대해 가중치를 조절  
+  - 속도는 개선되었지만, 극소 문제(loval minima)가 남아있음  
+- 딥러닝 과정  
+  - 층 구성 `keras.sequential()`  
+  - 컴파일 `model.compile()`  
+  - 요약 `model.summary()`  
+  - 학습 `model.fit()`  
+  - 예측 `model.predict()`  
+  - 평가 `model.evaluate()`  
 - ANN(Artificial Neural Network)
   - 입력층(Input) -> 은닉층(Hidden) -> 출력층(Output)
 - DNN(Deep Neural Network)
