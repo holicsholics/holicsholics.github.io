@@ -544,18 +544,20 @@ with open("test.txt", "r") as f:
   - 실제값과 예측값의 차이를 수치화해주는 함수
   - Crossentropy는 값이 낮을수록 예측을 잘한것임
   - 분류
-    - 이항분류: BinaryCrossentropy (이진 엔트로피)
-    - 다항분류
-      - CategoricalCrossentropy (교차 엔트로피)
-      - CategoricalHinge (범주형 힌지 손실)
-      - Hinge (힌지 손실)
-      - KLDivergence (Kullback-Leibler 발산 손실)
-  - 회귀
-    - CosineSimilarity (코사인 유사도)
-    - Huber (Huber 손실)
-    - LogCosh (예측 오차의 쌍곡선 코사인의 로그)
-    - MeanAbsoluteErr
-    - MeanAbsulutePercentageErr  
+      - 이항분류: BinaryCrossentropy (이진 엔트로피)
+      - 다항분류
+        - CategoricalCrossentropy (교차 엔트로피)
+        - CategoricalHinge (범주형 힌지 손실)
+        - Hinge (힌지 손실)
+        - KLDivergence (Kullback-Leibler 발산 손실)
+      - 회귀
+        - CosineSimilarity (코사인 유사도)
+        - Huber (Huber 손실)
+        - LogCosh (예측 오차의 쌍곡선 코사인의 로그)
+        - MeanAbsoluteErr
+        - MeanAbsulutePercentageErr  
+
+
 - 옵티마이저 (Optimizer)  
   - 데이터와 손실함수를 기반으로 모델이 업데이트되는 방식  
 - 경사하강법 (Gradient Descent)  
@@ -580,5 +582,5 @@ with open("test.txt", "r") as f:
 - 밀집층(Dense layer, FC)
   - 모든 뉴런에 연결되는 계층
   - 과적합 확률이 높아, 드롭아웃(Dropout) 기법을 이용  
-- `loss: categorical_crossentropy` = 원핫 벡터 라벨
+- `loss: categorical_crossentropy` = 원핫 벡터 라벨  
 - `loss: sparse_categorical_crossentropy` = 정수형 라벨
