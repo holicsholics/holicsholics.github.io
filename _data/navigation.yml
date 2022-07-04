@@ -30,10 +30,10 @@ docs:
         url: /categories/DataScience/
         category: "DataScience"
       - title: "┗ Machine Learning"
-        url: /categories/ML
+        url: /categories/ML/
         category: "Machine Learning"
       - title: "┗ Deep Learning"
-        url: /categories/ML
+        url: /categories/DL/
         category: "Deep Learning"
       - title: "┗ Issue"
         url: /categories/TIL/Issue/
