@@ -2,7 +2,8 @@
 title: DACON 병원 개업/폐업 분류 예측 경진대회
 date: 2022-07-02T12:08:12.249Z
 
-categories: Machine Learning
+categories:
+  - Machine Learning
 tags:
   - DataScience
   - Machine Learning

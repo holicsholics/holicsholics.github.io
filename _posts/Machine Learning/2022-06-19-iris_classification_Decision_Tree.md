@@ -2,7 +2,8 @@
 title: Iris 데이터 분류 - 결정 트리
 date: 2022-06-19T12:27:28.369Z
 
-categories: Machine Learning
+categories:
+  - Machine Learning
 tags:
   - Machine Learning
   - DataScience
