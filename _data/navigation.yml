@@ -53,7 +53,7 @@ docs:
         category: "TILSUM"
       - title: "┗ 멋사 AI School 6기 TIL"
         url: /categories/Likelion/
-        category: "deploy"
+        category: "Likelion"
   - title: "Deploying"
     children:
       - title: "┗ 주요 질병 사망자 및 보건 환경 비교"
