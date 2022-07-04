@@ -52,7 +52,7 @@ docs:
         url: /categories/TIL/TILSUM/
         category: "TILSUM"
       - title: "┗ 멋사 AI School 6기 TIL"
-        url: /likelion/
+        url: /categories/Likelion/
         category: "deploy"
   - title: "Deploying"
     children:
