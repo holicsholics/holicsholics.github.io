@@ -1,6 +1,6 @@
 ---
 title: "Algorithm"
-permalink: /categories/TIL/Algorithm/
+permalink: /categories/Algorithm/
 layout: category
 author_profile: true
 taxonomy: Algorithm

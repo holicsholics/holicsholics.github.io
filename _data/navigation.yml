@@ -24,22 +24,22 @@ docs:
         url: /categories/TIL/
         category: "TIL"
       - title: "┗ Algorithm"
-        url: /categories/TIL/Algorithm/
+        url: /categories/Algorithm/
         category: "Algorithm"
       - title: "┗ DataScience"
-        url: /categories/TIL/DataScience/
+        url: /categories/DataScience/
         category: "DataScience"
       - title: "┗ Machine Learning"
-        url: /categories/TIL/DataScience/ML
+        url: /categories/ML
         category: "Machine Learning"
       - title: "┗ Deep Learning"
-        url: /categories/TIL/DataScience/ML
+        url: /categories/ML
         category: "Deep Learning"
       - title: "┗ Issue"
         url: /categories/TIL/Issue/
         category: "Issue"
       - title: "┗ Github page"
-        url: /categories/TIL/githubpage/
+        url: /categories/githubpage/
         category: "GitHub Page"
   - title: "Project"
     children:
