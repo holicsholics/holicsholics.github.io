@@ -1,19 +1,19 @@
 ---
-title: "Spaceship Titanic - 머신러닝으로 분류하기"
-date:
+title: Spaceship Titanic - 머신러닝으로 분류하기
+date: 2022-07-06T18:37:20.814Z
 
 categories:
-    - Machine Learning
+  - Machine Learning
 tags:
-    - pandas
-    - numpy
-    - Machine Learning
-    - seaborn
-    - matplot
-    - XGBoost
-    - LGBM
-    - sklearn
-    - DataScience
+  - pandas
+  - numpy
+  - Machine Learning
+  - seaborn
+  - matplot
+  - XGBoost
+  - LGBM
+  - sklearn
+  - DataScience
 ---
 
 # Kaggle Spaceship Titanic
