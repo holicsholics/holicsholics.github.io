@@ -796,7 +796,7 @@ _ = plt.pie(data, labels=labels, colors=colors, autopct="%.2f%%")
     
 
 
-극저온 수면을 한 사람들의 약 18%는 사망했음
+극저온 수면을 한 사람들의 약 82%는 사망했음
 
 
 ```python
@@ -2017,12 +2017,6 @@ pred_xgb = clf_xgb.fit(X_train, y_train).predict(X_test)
 
 accuracy_score(y_test, pred_rf)
 ```
-
-    [03:13:38] WARNING: ..\src\learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-
-
 
     0.7199539965497412
 
