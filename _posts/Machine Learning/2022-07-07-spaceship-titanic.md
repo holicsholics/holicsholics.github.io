@@ -2069,6 +2069,6 @@ _ = lgbm.plot_importance(clf_lgbm)
 
 ## 마무리
 EDA와 전처리를 굉장히 만족스럽게했지만, 기대했던 성능에 미치지는 못했다..  
-베스트 스코어는 역시 `lgbm`을 사용한 경우로, 74점정도 된다.
+베스트 스코어는 역시 `lgbm`을 사용한 경우로, 74점정도임
 
 ![png](/assets/images/sourceImg/spaceship_titanic/spaceship_titanic_kaggle_score.png)
