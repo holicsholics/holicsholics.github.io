@@ -246,7 +246,7 @@ accuracy_score(pred, y_test)
 
 
 
-    0.9344262295081968
+    0.9508196721311475
 
 
 
@@ -258,8 +258,8 @@ print('test acc :',np.round(test_acc,4))
 ```
 
     2/2 [==============================] - 0s 6ms/step - loss: 0.7612 - accuracy: 0.9344
-    test loss : 0.7612
-    test acc : 0.9344
+    test loss : 0.2958
+    test acc : 0.9508
     
 
 ### Submission
