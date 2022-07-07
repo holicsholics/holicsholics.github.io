@@ -220,7 +220,6 @@ _ = df_hist[["accuracy", "val_accuracy"]].plot()
     
 ![png](/assets/images/sourceImg/hospital_open_close_prediction_tf_files/hospital_open_close_prediction_tf_13_0.png)
 
-좀 이상하게 그려진듯..
     
 
 
@@ -281,6 +280,7 @@ sub.to_csv("sub_tf.csv", index=False)
 ```
 
     4/4 [==============================] - 0s 19ms/step
-    
+
+### 마무리
 public: 0.85 / private: 0.84가 나옴  
 머신러닝 알고리즘(RF, XGBoost, LGBM)들이 public: 0.87이 나온 것에 비해 낮은 점수임
