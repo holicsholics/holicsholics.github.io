@@ -257,7 +257,7 @@ print('test loss :',np.round(test_loss,4))
 print('test acc :',np.round(test_acc,4))
 ```
 
-    2/2 [==============================] - 0s 6ms/step - loss: 0.7612 - accuracy: 0.9344
+    2/2 [==============================] - 0s 6ms/step - loss: 0.2958 - accuracy: 0.9508
     test loss : 0.2958
     test acc : 0.9508
     
