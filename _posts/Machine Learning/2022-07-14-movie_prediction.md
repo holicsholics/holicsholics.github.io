@@ -911,7 +911,7 @@ reg_lgbm = LGBMRegressor()
 
 pred_lgbm = reg_lgbm.fit(X_train, y_train).predict(X_val)
 
-print(f"rmse: {np.sqrt(mean_squared_error(y_val, pred_xgb))}")
+print(f"rmse: {np.sqrt(mean_squared_error(y_val, pred_lgbm))}")
 
 ```
 
