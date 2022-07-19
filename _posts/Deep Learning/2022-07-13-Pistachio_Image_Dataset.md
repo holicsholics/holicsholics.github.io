@@ -520,7 +520,7 @@ plt.show()
     
 
 
-## Model Evaliation
+## Model Evaluation
 
 
 ```python
