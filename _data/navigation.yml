@@ -59,3 +59,6 @@ docs:
       - title: "┗ 주요 질병 사망자 및 보건 환경 비교"
         url: https://share.streamlit.io/nuyhc/caomddahe/main/intro_main.py
         category: "deploy"
+      - title: "┗ CNN을 이용한 수어 분류"
+        url: https://eunjida-streamlit-sign-language-0--sign-language-sw6rhz.streamlitapp.com/
+        category: "deploy"
