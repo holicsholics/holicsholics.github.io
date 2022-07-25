@@ -7,6 +7,8 @@ categories:
 tags:
   - DataScience
   - sklean
+
+use_math: true
 ---
 
 # 회귀(Regession)
@@ -26,7 +28,7 @@ tags:
 - L2 규제: 상대적으로 큰 회귀 계수의 영향력을 감소 시키기 위해, 회귀 계수값을 더 작게 만드는 것
 
 ## 경사 하강법(Gradient Descent)
-$ RSS(w_0, w_1) = {1 \over N} \sum^N_{i=1} (y_i - (w_0 + w_1 \times x_i))^2 $  
+$RSS(w_0, w_1) = {1 \over N} \sum^N_{i=1} (y_i - (w_0 + w_1 \times x_i))^2$  
 실제 값과 회귀 모델의 차이에 따른 오류 값을 잔차라하며, 최적의 회귀 모델을 만든다는 것은 잔차(오류 값)를 최소화하는 모델을 만드는 것  
 보통 오류 합을 계산할 때는 절댓값을 취해 더하거나(MAS), 오류 값의 제곱을 더하는 방식(RSS, Residual Sum of Square)을 취함  
 회귀에서 RSS는 비용(cost)이며, 이를 비용 함수(cost func.)라고 함  
@@ -146,10 +148,10 @@ print(f"w1: {w1[0, 0]:.3f}\nw0: {w0[0, 0]:.3f}\ncost: {get_cost(y, y_pred):.3f}"
     
 
 ## 회귀 평가 지표
-$ MAE(Mean Absolute Error) = {1 \over n} \sum^n_{i=1}|{Y_i} - \hat {Y_i}| $  
-$ MSE(Mean Squared Error) = {1 \over n} \sum^n_{i=1} ({Y_i} - \hat {Y_i})^2 $  
-$ RMSE(Root MSE) = \sqrt{{1 \over n} \sum^n_{i=1} ({Y_i} - \hat {Y_i})^2} $  
-$ R^2 = {예측값 var \over 실제값 var} $
+$MAE(Mean Absolute Error) = {1 \over n} \sum^n_{i=1}|{Y_i} - \hat {Y_i}|$  
+$MSE(Mean Squared Error) = {1 \over n} \sum^n_{i=1} ({Y_i} - \hat {Y_i})^2$  
+$RMSE(Root MSE) = \sqrt {MSE}$  
+$R^2 = {예측값 var \over 실제값 var}$
 
 ## 다항 회귀
 다항 회귀는 비선형 회귀가 아니라 선형 회귀임  
@@ -187,11 +189,11 @@ poly_ftr
 
 
 
-$ [x_1, x_2]  -> [1, x_1, x_2, x_1^2, x_1x_2, {x_2}^2] $
+$[x_1, x_2]  -> [1, x_1, x_2, x_1^2, x_1x_2, {x_2}^2]$
 
 ## 규제 선형 모델
 과소/과대 적합 방지를 위해 규제가 필요함  
-$ 비용 함수 목표 = Min(RSS(W) + alpha * ||W||^2_2) $  
+$비용 함수 목표 = Min(RSS(W) + alpha * ||W||^2_2)$  
 `alpha`는 학습 데이터가 적합 정도와 회귀 계수 값의 크기 제어를 수행하는 튜닝 파라미터
 - L1 규제: $ alpha*||W||_1 $
 - L2 규제: $ alpha*||W||^2_2 $
