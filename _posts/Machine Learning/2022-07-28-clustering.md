@@ -1,6 +1,6 @@
 ---
-title: "군집화(Clustering) 정리"
-date:
+title: 군집화(Clustering) 정리
+date: 2022-07-28T11:27:30.554Z
 
 categories:
   - Machine Learning
