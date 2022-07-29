@@ -694,4 +694,5 @@ sub.to_csv("sub_dnn.csv", index=False)
 DACON 제출시 정확도 50%로 170등대에 랭크되었다. 참고한 노트북에서는 `softmax`를 출력층 활성 함수로 사용했는데, 왜 `softmax`를 사용한지 모르겠다. 확진 여부를 분리하는 모델이므로 나는 `sigmoid`를 사용했는데 성능 차이가 이 부분에서 발생한거 같다.  
 `softmax`로 활성 함수를 변경하면 58% 정확도로 59등까지 등수가 올라간다. (22-07-29일 기준)  
 validation에서는 크게 성능 차이가 안나는데 제출시에는 성능 차이가 많이 발생한다.  
-![png](/assets\images\sourceImg\covid19_DNN_sound_data_files\covid19_DNN_sound_data_25_1.png)
+![png](/assets\images\sourceImg\covid19_DNN_sound_data_files\covid19_DNN_sound_data_25_1.png)  
+++ 분류 문제가 아니라 회귀 문제라 끝단에 `softmax`를 사용한거 같다.
