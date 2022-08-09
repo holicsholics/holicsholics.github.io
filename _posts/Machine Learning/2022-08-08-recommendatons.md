@@ -9,6 +9,7 @@ tags:
   - sklearn
   - pandas
   - numpy
+  - Tutorial
 ---
 
 # 추천 시스템(Recommendations)

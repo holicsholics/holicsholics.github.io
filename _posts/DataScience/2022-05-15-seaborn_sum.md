@@ -8,6 +8,7 @@ categories:
 tags:
   - DataScience
   - Seaborn
+  - Tutorial
 
 toc: true
 toc_sticky: true

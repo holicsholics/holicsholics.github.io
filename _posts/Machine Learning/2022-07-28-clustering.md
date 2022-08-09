@@ -11,6 +11,7 @@ tags:
   - seaborn
   - matplot
   - sklean
+  - Tutorial
 ---
 
 # 군집화(Clustering)

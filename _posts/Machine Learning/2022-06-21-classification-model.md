@@ -14,6 +14,7 @@ tags:
   - seaborn
   - matplot
   - numpy
+  - Tutorial
 
 use_math: true
 ---

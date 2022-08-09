@@ -9,6 +9,7 @@ tags:
   - pandas
   - DataScience
   - sklearn
+  - Tutorial
 
 use_math: true
 ---

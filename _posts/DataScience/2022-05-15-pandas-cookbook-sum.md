@@ -8,6 +8,7 @@ categories:
 tags:
   - pandas
   - DataScience
+  - Tutorial
 
 toc: true
 toc_sticky: true

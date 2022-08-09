@@ -8,6 +8,7 @@ tags:
   - DataScience
   - Deep Learning
   - PyTorch
+  - Tutorial
 ---
 
 # Transform (변형)

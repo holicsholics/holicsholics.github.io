@@ -7,6 +7,7 @@ categories:
 tags:
   - DataScience
   - sklean
+  - Tutorial
 
 use_math: true
 ---

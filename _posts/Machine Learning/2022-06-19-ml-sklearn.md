@@ -11,6 +11,7 @@ tags:
   - matplot
   - DataScience
   - sklearn
+  - Tutorial
 ---
 
 

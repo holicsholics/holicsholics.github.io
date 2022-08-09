@@ -10,6 +10,7 @@ tags:
   - sklean
   - numpy
   - matplot
+  - Tutorial
 ---
 
 # 차원 축소(Dimension Rduction)

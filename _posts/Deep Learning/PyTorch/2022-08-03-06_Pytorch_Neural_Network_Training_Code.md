@@ -8,6 +8,7 @@ tags:
   - DataScience
   - Deep Learning
   - PyTorch
+  - Tutorial
 ---
 
 # PyTorch NN Training Code
