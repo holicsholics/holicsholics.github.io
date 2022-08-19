@@ -62,3 +62,6 @@ docs:
       - title: "┗ CNN을 이용한 수어 분류"
         url: https://eunjida-streamlit-sign-language-0--sign-language-sw6rhz.streamlitapp.com/
         category: "deploy"
+      - title: "┗ 모션 인식을 통한 안무 연습"
+        url: https://sorijoo-test-main-lw7233.streamlitapp.com/
+        category: "deploy"
