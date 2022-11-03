@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "sangu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # "/Users/sangu/Downloads/IMG_0336.PNG"
   bio              : "저세상 개발자(진)"
   location         : "Republic of Korea"
   email            : "sangu0389@naver.com"
