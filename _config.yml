@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "sangu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "세상 "
-  location         : "Somewhere"
+  bio              : "세상 물정 모르는 사람"
+  location         : "Republic of Korea"
   email            : "sangu0389@naver.com"
   links:
     - label: "Email"
