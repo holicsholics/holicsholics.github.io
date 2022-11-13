@@ -1,6 +1,6 @@
 ---
 title: DACON 생육 환경 최적화 경진대회
-date: 2022-07-29T05:53:31.346Z
+date: 2022-11-13T11:36:53.086Z
 
 categories:
   - Deep Learning
